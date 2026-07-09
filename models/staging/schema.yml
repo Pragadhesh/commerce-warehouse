@@ -1,0 +1,347 @@
+version: 2
+
+sources:
+  - name: fiction_retail
+    description: >
+      Raw landing tables loaded from the fiction-retail extract (Postgres
+      schema `raw`). One-to-one with the upstream operational tables --
+      no transformation happens before this point.
+    schema: raw
+    tables:
+      - name: customers
+        description: One row per customer who has signed up.
+        columns:
+          - name: customer_id
+            description: Unique customer identifier. Primary key.
+            tests:
+              - unique
+              - not_null
+          - name: name
+            description: Customer full name.
+          - name: email
+            description: Customer email address.
+          - name: phone
+            description: Customer phone number.
+          - name: signup_date
+            description: Date the customer registered.
+          - name: country
+            description: Country of residence.
+          - name: state
+            description: State or province of residence.
+          - name: city
+            description: City of residence.
+          - name: customer_segment
+            description: >
+              Lifecycle segment label. One of active, new, vip, dormant,
+              churned.
+
+      - name: orders
+        description: One row per order placed by a customer.
+        columns:
+          - name: order_id
+            description: Unique order identifier. Primary key.
+            tests:
+              - unique
+              - not_null
+          - name: customer_id
+            description: FK to customers.customer_id.
+            tests:
+              - not_null
+          - name: order_date
+            description: Date the order was placed.
+          - name: order_status
+            description: >
+              Current order status: pending, confirmed, fulfilling,
+              backordered, in_transit, delivered, returned, canceled,
+              or disputed.
+          - name: total_amount
+            description: Total order value in USD.
+          - name: payment_method
+            description: >
+              Payment method used: credit_card, debit_card, paypal,
+              apple_pay, or gift_card.
+          - name: shipping_country
+            description: Destination country for the order.
+          - name: promo_id
+            description: FK to promotions.promo_id. Null if no promo applied.
+
+      - name: order_items
+        description: One row per line item within an order.
+        columns:
+          - name: order_item_id
+            description: Unique line-item identifier. Primary key.
+            tests:
+              - unique
+              - not_null
+          - name: order_id
+            description: FK to orders.order_id.
+            tests:
+              - not_null
+          - name: product_id
+            description: FK to products.product_id.
+            tests:
+              - not_null
+          - name: quantity
+            description: Units ordered.
+          - name: unit_price
+            description: Price per unit at time of order, in USD.
+          - name: discount_pct
+            description: Discount percentage applied to this line item (0-100).
+
+      - name: products
+        description: Product catalog.
+        columns:
+          - name: product_id
+            description: Unique product identifier. Primary key.
+            tests:
+              - unique
+              - not_null
+          - name: name
+            description: Product name.
+          - name: category
+            description: >
+              Product category, e.g. apparel, electronics, automotive,
+              books, home_goods, beauty, food, sports, tools, jewelry, toys,
+              other.
+          - name: brand
+            description: Brand name.
+          - name: price
+            description: List price in USD.
+          - name: weight_kg
+            description: Shipping weight in kilograms.
+          - name: supplier_id
+            description: FK to suppliers.supplier_id.
+
+      - name: suppliers
+        description: Supplier / vendor master data.
+        columns:
+          - name: supplier_id
+            description: Unique supplier identifier. Primary key.
+            tests:
+              - unique
+              - not_null
+          - name: name
+            description: Supplier name.
+          - name: country
+            description: Country the supplier operates from.
+          - name: contract_start_date
+            description: Date the current supplier contract began.
+          - name: status
+            description: Supplier status: active, under_review, or terminated.
+
+      - name: inventory
+        description: On-hand stock position per product per warehouse.
+        columns:
+          - name: inventory_id
+            description: Unique inventory record identifier. Primary key.
+            tests:
+              - unique
+              - not_null
+          - name: product_id
+            description: FK to products.product_id.
+          - name: warehouse_id
+            description: FK to warehouses.warehouse_id.
+          - name: quantity_on_hand
+            description: Current stock count.
+          - name: reserved_quantity
+            description: Units reserved against open orders.
+          - name: reorder_threshold
+            description: Stock level that should trigger a reorder.
+          - name: last_restocked_date
+            description: Date of the most recent restock.
+
+      - name: warehouses
+        description: Fulfillment warehouse / distribution center master data.
+        columns:
+          - name: warehouse_id
+            description: Unique warehouse identifier. Primary key.
+            tests:
+              - unique
+              - not_null
+          - name: name
+            description: Warehouse name.
+          - name: city
+            description: City.
+          - name: state
+            description: State or province.
+          - name: country
+            description: Country.
+          - name: capacity_units
+            description: Maximum storage capacity, in units.
+          - name: opened_date
+            description: Date the warehouse opened.
+
+      - name: shipments
+        description: One row per shipment against an order.
+        columns:
+          - name: shipment_id
+            description: Unique shipment identifier. Primary key.
+            tests:
+              - unique
+              - not_null
+          - name: order_id
+            description: FK to orders.order_id.
+          - name: warehouse_id
+            description: FK to warehouses.warehouse_id.
+          - name: carrier
+            description: >
+              Carrier name: ups, fedex, usps, dhl, or amazon_logistics.
+          - name: tracking_number
+            description: Carrier tracking number.
+          - name: shipped_date
+            description: Date shipped.
+          - name: delivered_date
+            description: Date delivered. Null if still in transit.
+          - name: shipment_state
+            description: >
+              Shipment state: in_transit, delivered, or returned.
+
+      - name: returns
+        description: One row per product return against an order.
+        columns:
+          - name: return_id
+            description: Unique return identifier. Primary key.
+            tests:
+              - unique
+              - not_null
+          - name: order_id
+            description: FK to orders.order_id.
+          - name: product_id
+            description: FK to products.product_id.
+          - name: return_date
+            description: Date the return was initiated.
+          - name: refund_amount
+            description: Refund value in USD.
+          - name: return_reason_code
+            description: >
+              Reason code, e.g. DEFECTIVE, WRONG_ITEM, DAMAGED_TRANSIT,
+              NOT_AS_DESCRIBED, FIT_ISSUE, BUYER_REMORSE, LATE_ARRIVAL,
+              DUPLICATE_ORDER, FRAUD_CHARGEBACK, OTHER.
+          - name: processed_by
+            description: Agent or system that processed the return.
+
+      - name: promotions
+        description: Promotion / discount code catalog.
+        columns:
+          - name: promo_id
+            description: Unique promotion identifier. Primary key.
+            tests:
+              - unique
+              - not_null
+          - name: promo_code
+            description: Alphanumeric promo code.
+          - name: description
+            description: Human-readable description.
+          - name: discount_pct
+            description: Discount percentage (0-100).
+          - name: valid_from
+            description: Promotion start date.
+          - name: valid_until
+            description: Promotion end date.
+          - name: applies_to_category
+            description: >
+              Product category the promo applies to, or "all" if
+              unrestricted.
+          - name: max_uses
+            description: Maximum redemption count.
+          - name: status
+            description: Promotion status: active, scheduled, or expired.
+
+models:
+  - name: stg_customers
+    description: Cleaned, renamed pass-through of raw.customers.
+    columns:
+      - name: customer_id
+        description: Unique customer identifier.
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_orders
+    description: Cleaned, renamed pass-through of raw.orders.
+    columns:
+      - name: order_id
+        description: Unique order identifier.
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: FK to stg_customers.customer_id.
+
+  - name: stg_order_items
+    description: >
+      Cleaned pass-through of raw.order_items, with a computed
+      line_item_amount (quantity * unit_price, net of discount_pct).
+    columns:
+      - name: order_item_id
+        description: Unique line-item identifier.
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_products
+    description: Cleaned, renamed pass-through of raw.products.
+    columns:
+      - name: product_id
+        description: Unique product identifier.
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_suppliers
+    description: Cleaned, renamed pass-through of raw.suppliers.
+    columns:
+      - name: supplier_id
+        description: Unique supplier identifier.
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_warehouses
+    description: Cleaned, renamed pass-through of raw.warehouses.
+    columns:
+      - name: warehouse_id
+        description: Unique warehouse identifier.
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_inventory
+    description: >
+      Cleaned pass-through of raw.inventory, with a computed
+      quantity_available (quantity_on_hand - reserved_quantity).
+    columns:
+      - name: inventory_id
+        description: Unique inventory record identifier.
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_shipments
+    description: >
+      Cleaned pass-through of raw.shipments, with a computed transit_days
+      (delivered_date - shipped_date).
+    columns:
+      - name: shipment_id
+        description: Unique shipment identifier.
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_returns
+    description: Cleaned, renamed pass-through of raw.returns.
+    columns:
+      - name: return_id
+        description: Unique return identifier.
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_promotions
+    description: Cleaned, renamed pass-through of raw.promotions.
+    columns:
+      - name: promo_id
+        description: Unique promotion identifier.
+        tests:
+          - unique
+          - not_null

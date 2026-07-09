@@ -1,0 +1,17 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Docker
+# (named volumes are managed by Docker, not the bind-mounted init/ dir)
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp

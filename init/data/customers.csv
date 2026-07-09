@@ -1,0 +1,501 @@
+customer_id,name,email,phone,signup_date,country,state,city,customer_segment
+0740e9e1-e88e-4ec6-a866-76a790025ee8,Rachel Shields,carterpaul@example.org,001-483-398-2622x4447,2022-03-08,US,Hawaii,Hillport,dormant
+af03e8b7-cd17-4f7a-a310-60016aff557a,Alison Compton,joseph70@example.org,720-973-5647,2023-10-31,US,Vermont,West Christopherberg,active
+922b1814-24b4-4447-969a-26b0ab2a5b01,Amanda Stewart,earl78@example.org,+1-441-206-7275,2022-11-28,Canada,Alberta,Deborahport,active
+cc4d702c-2cea-4f72-bd3f-fcb6f95e94a1,Denise Knight,wsimmons@example.org,+1-948-446-8536x6498,2024-02-28,US,Alaska,New Victor,new
+50eb5a41-ebfc-4461-ae3f-81e69a3a1ddb,Donald Hobbs,cory42@example.org,347-573-2449x1342,2023-10-02,Canada,Nova Scotia,North Carmen,active
+89f7556f-3625-4012-bc78-eb9004ee1374,Mike Bradley,thomas74@example.org,001-222-694-6430x3942,2024-02-14,UK,Scotland,Jenniferhaven,new
+f147eecb-7dcd-4057-b179-18303e3eff97,Aaron Galloway,smithpaul@example.org,001-595-712-3972,2023-04-19,Germany,Hamburg,Port Feliciaberg,vip
+021e107a-baf0-4313-997d-235c49a10b59,Barbara Lambert,jenniferhall@example.org,001-801-362-3419x0310,2024-02-23,US,Michigan,South Drew,new
+409e4737-97c5-4657-b34f-12892bc4de60,Sarah Cummings,hullcheryl@example.net,256.217.8688x0023,2022-06-07,Canada,Nova Scotia,West Kimberlyville,vip
+b4af99bc-74c9-4122-94af-4f63add8af5f,Jared Dyer,zskinner@example.com,001-606-636-2198x65504,2023-02-11,Canada,Manitoba,Dianamouth,dormant
+588c4d55-908c-4b22-b418-eea057caad2f,Matthew Reynolds,jenniferking@example.org,+1-903-515-8925x8490,2022-12-13,US,Maryland,North Jeremy,dormant
+2d6159e3-ea1d-4c5a-853c-4d2b1565c1da,Sean Huerta,jonathan25@example.org,(694)220-4164x1537,2023-12-03,US,Utah,Christopherborough,active
+630f16fe-899d-4a1d-b7b4-08d32f73e7cd,Bradley Lynch,kyle04@example.com,(236)347-9214,2022-08-15,UK,Scotland,Port Jessicafurt,dormant
+3cce5a88-c69e-421b-88c2-d90dd502f4d1,Donald Gray,cdougherty@example.org,266.304.7412,2023-01-14,US,Ohio,East Samuelborough,dormant
+473a133b-dd7e-4a96-a2ab-62fb79b79402,Whitney Nelson,amartinez@example.org,767-282-0369x0615,2024-02-07,US,Texas,South Renee,new
+bfc112ba-453a-4de3-98d4-8a4ece1e1de1,Tyler Leon,stephaniemckee@example.org,001-595-958-7799x36427,2023-01-28,US,Pennsylvania,Shawnbury,dormant
+3adde3bc-ab3b-468d-a017-374b4a4c0994,Barbara Fox,smithjohn@example.org,937-382-8687x22030,2023-10-11,US,Arkansas,Port Rogerburgh,active
+9fafca07-c5c7-4a38-9db5-f19ce00bb743,Jamie Jackson,mmann@example.org,001-668-900-7119,2023-04-03,US,Massachusetts,Lake Stacystad,dormant
+638041a1-108b-4baa-a70c-c9acf6ef9553,Brian Ballard,shannon27@example.net,792.626.8949,2023-06-06,UK,Northern Ireland,South Madeline,active
+903644c9-5fe4-494a-a1f3-872a5dc6ab57,Michael Washington,ybraun@example.org,954.976.6307,2022-01-27,US,Massachusetts,Lake Deannashire,active
+e2d942f4-5cac-4c86-bb6a-0a0a96a4e40a,Shannon Mahoney,michael16@example.com,001-891-656-6303x6338,2023-03-23,US,North Carolina,Cookton,vip
+610651e2-f64a-45f4-8244-9f166ba6bb75,Terry Phillips,yrodriguez@example.org,+1-375-934-0961x99751,2023-01-21,Canada,New Brunswick,Robertborough,active
+08d8859c-66fe-4417-923e-ada6bd4aa530,William Silva,christinesmith@example.net,001-776-210-3216,2022-03-16,US,Oklahoma,Hernandezfort,dormant
+947fd93e-83a6-43d2-998a-836cbc53774b,Jessica Lee,xritter@example.org,650-518-1878x5037,2024-04-19,US,Missouri,East Matthewport,new
+aa7f3132-6181-444a-9839-b501d2f13a1a,Natasha Turner,nmendez@example.net,3529334750,2024-04-15,US,Oklahoma,West Jessica,new
+4e7a02f5-f62d-401f-b528-5d0af80d68c0,Mary Walker,cindysmith@example.net,928-423-6160x109,2023-07-21,US,West Virginia,Lake Amanda,vip
+68b6af5f-82ce-4006-b828-bd584ddcca8e,Jennifer Baxter,parkersherri@example.org,821-326-1090,2023-07-25,US,Arkansas,Lake Ashley,active
+97198d0a-6c19-4d9f-905c-29dc36e40570,Kelsey Villarreal,jennifersanders@example.org,+1-996-901-4471x599,2024-02-24,US,Texas,New Jonathanview,new
+380c5f49-8f55-41e2-ac47-bad2ea30db5c,Rebecca Pineda,tarakane@example.com,886.226.4616x1501,2024-04-18,US,Michigan,East Markton,new
+b2c5d6ab-d24d-4f8c-b1df-21249f6fe4c5,Lynn Smith,ajohnson@example.com,001-998-543-6348x61565,2023-02-11,US,Maine,Lake Jonathanfurt,vip
+825beef6-e9ca-4194-bc17-e91c96470e0c,Nathan Walker,hcrosby@example.org,(907)345-1152x471,2022-06-08,Canada,Alberta,Lake Benjaminborough,vip
+cd71de6f-8bae-49d2-bfcc-19a8101e3c99,Tracy Morris,rebecca89@example.com,+1-453-394-5345x2385,2023-04-07,US,Maine,Boothland,active
+d255ae66-cd56-4965-947a-fc7887d075ca,Emily Williams,carpenterrobert@example.org,001-429-980-6515,2024-04-07,US,Arizona,Lake Edwinfort,active
+eb12ee17-67dc-49a6-9cb6-10cc78dd8c48,Alan Hall,michael61@example.net,001-908-906-3425,2024-02-26,UK,Northern Ireland,Martinburgh,new
+c9c25a3e-c7ee-4b59-a203-f6a6ae6c4e65,Emily Burns,oscar80@example.org,393.276.2241x419,2023-06-08,Germany,Bavaria,West Andre,active
+2fe16a9b-5468-4297-9736-38608e280640,Mark Hamilton,andersontina@example.com,989-950-8164,2022-03-14,US,Illinois,Walshfurt,dormant
+be06b949-3d22-4d24-a7c7-9622a23b73f7,Sandra White,wrightlucas@example.org,467-437-4976,2022-12-08,US,Arizona,North Martin,dormant
+a31282e2-6869-4880-947f-744e5160dc76,Mary Fitzgerald,elizabethortiz@example.net,385.955.7605x8789,2024-01-05,US,Missouri,Port Catherine,active
+0cea2329-de7c-48cf-ae74-ce7dfec86cc2,Michelle Anderson,anthony41@example.net,398.678.5928x6867,2023-05-08,Germany,Berlin,South Brendaside,active
+e5a0ba19-6693-4036-b995-b3b2a41a678a,Michael Brown,twilson@example.net,2423116334,2023-08-06,UK,Scotland,Rossborough,vip
+1f672860-145d-4ec4-a366-374ef6a2f53c,Dr. Patrick Thompson,matthew21@example.com,823.614.8897x555,2024-04-22,US,Delaware,New Ashley,new
+508cf050-148b-40f9-a188-3a6127725131,Veronica Davis,shaffermary@example.net,(889)565-7146x8472,2023-07-26,US,Alabama,East Julieland,active
+0852b289-200a-42bf-9cae-36bdcb47b281,Brittany Gomez,andersonelizabeth@example.org,813.520.9046x6129,2022-01-12,UK,Scotland,Port Charlesstad,active
+8be97fa7-fb9e-4b61-9d8c-3e4064da8b1c,Chris Ponce,ygallegos@example.com,+1-793-658-9441x4372,2023-04-03,Canada,Quebec,Kimberlyville,vip
+3233268f-cf8d-4103-bf4c-15bac01dee40,Maureen Ellis,ahill@example.net,+1-455-329-8071x79653,2022-11-13,US,New Hampshire,New Dannyfort,active
+4f2832ed-222b-42a0-a94a-1de8f8e78ff1,Kristopher Hayes,odixon@example.net,+1-468-291-0087x2924,2023-05-24,US,Missouri,Lake Laurie,vip
+d71857aa-bfe7-4e89-9dbe-bc32119accf5,Norma Riley,bonnie14@example.net,570-877-5740,2022-10-09,UK,England,East Kevinton,dormant
+a4d7822f-f27c-404f-88ae-4a60cb303878,Isaac Calderon,pamelanelson@example.com,273.772.2770x15590,2022-08-27,US,Illinois,Hendersonville,dormant
+708116b3-ac42-4904-9b90-1ad176935278,Jeffrey Griffin,april01@example.net,(657)362-8577x73813,2023-01-27,US,Nebraska,Ianville,vip
+91098852-2a72-4a73-a0ac-f7a8df2f7259,Lori Stevens,anagordon@example.net,001-925-744-4086x99197,2022-09-25,US,Mississippi,Nicholasfort,churned
+161b62da-8b33-462e-b798-fae6e08e72d9,Douglas Coleman,elizabeth51@example.com,+1-631-408-4656,2023-09-26,US,Illinois,West Jessica,vip
+9e0a00a6-77aa-45d3-977b-b35cff8a4db5,Charles Jackson,vsullivan@example.org,(216)660-1930x63603,2022-10-01,UK,Northern Ireland,North Kristine,active
+83df18bc-1886-4c14-9fe4-2f244862d133,Brandi Schmidt,lorettawade@example.com,775.267.9847,2023-05-17,UK,Wales,Port Joseph,active
+91e7045e-b4b3-47ad-a7a9-e64822bbd9ab,Kara Green,bryanpamela@example.com,(867)868-4093x8012,2022-06-23,US,Alabama,Lake Williamview,churned
+c79a7318-97c7-4719-be1f-275dbd92e2a4,Gary Taylor,knightblake@example.com,897.554.8411x99475,2022-11-26,UK,Wales,New Samantha,active
+44a8094c-38fa-4e4d-9f6f-77f012a41a04,Angel Adams,courtney05@example.org,001-649-392-2892x14155,2022-09-17,US,Minnesota,North Emma,dormant
+a41f8664-664b-4ebe-9063-08fa0c67b8be,James Le,davisdenise@example.net,(857)424-6746x88501,2022-01-02,US,Tennessee,Jonesview,dormant
+864b96b8-1747-4cc1-a202-9ade50f85c0f,Curtis Jenkins,michealpeterson@example.org,365.288.9662,2023-04-05,US,Colorado,West Eugeneport,active
+33619921-d5c5-465f-9b2c-b0ae1e8821dd,Samantha Campbell,jeremy49@example.net,429.727.7995x420,2022-07-09,US,Wyoming,Cherylstad,active
+5bece6f6-97de-4279-87b4-c3a203cf2bb7,Glen Williams,patricia38@example.com,695.903.0510x509,2022-02-10,UK,Wales,Moorestad,active
+37e8b730-081e-4788-bcc3-6b2b318e15fd,Kayla Benson,rodriguezjulie@example.org,499-538-8864x66366,2022-05-14,UK,Northern Ireland,Jimmyport,active
+96e043d6-3cc2-45ca-b393-ea857d3d7a70,Megan Smith,williamseric@example.org,+1-377-459-9823x030,2022-09-29,US,Michigan,New Nicholas,active
+d1e3cf21-5f03-4141-89a6-282988466f79,Stephen Wilson,jenniferburgess@example.org,(804)300-7184,2023-09-21,US,Michigan,Hatfieldmouth,active
+30675dc1-9979-491f-96a0-9b28ddae3a41,Renee Villarreal,williamssarah@example.com,393.216.6111,2023-01-19,Germany,Berlin,New Dennis,dormant
+e3e2f7d6-0b15-45e8-979e-ed5dcd6a32b0,Morgan Allen,john00@example.net,844-896-3417x46097,2022-09-24,Canada,Saskatchewan,Port Brandon,dormant
+4830f893-ec70-4b74-9d0f-b9cb1a8df72d,Sarah Floyd,osanchez@example.org,(548)258-0389x40859,2023-04-18,US,Texas,South Kevin,active
+adbf5054-d91f-4def-8000-10a8e88ee72c,Michael Smith,qsimpson@example.net,559.282.4889x11480,2022-08-13,US,Delaware,Phillipsmouth,dormant
+07247e07-e145-475a-959f-e9e5ab994dc6,Dr. Robin Williams,eric93@example.net,(488)953-4118,2023-01-21,US,Indiana,Collinmouth,dormant
+f49594f5-5183-4f33-ba40-e9b2f1b18555,Michelle Medina,marissanolan@example.com,+1-561-474-9406x558,2023-04-26,US,Louisiana,Baileyborough,dormant
+78650d41-b1df-47b1-88f8-051f048e6a2f,Jennifer Baker,cmay@example.com,494-498-5531,2023-03-26,US,New Mexico,Gutierrezview,active
+1b458081-106e-4baf-a7bb-ad8eaf58ae65,Mrs. Tammy Trujillo,sylviageorge@example.org,001-696-979-3445x735,2022-08-05,US,Minnesota,South Jeremyside,active
+16800544-b72e-4e15-9101-32c18850685c,Eric Bryan,thomasbowen@example.com,4146742386,2022-05-14,Australia,Victoria,New Danielland,dormant
+2b306f03-ae85-4887-9194-1c31d46dac99,Jonathan Francis,daltoncassandra@example.org,(685)919-3230x37472,2024-02-05,Australia,New South Wales,New Amy,new
+ab47166d-77b9-4639-9c7f-5e8486a3cfae,Tara Johnson,jeffrey36@example.org,001-322-492-1723x54143,2022-12-28,UK,Scotland,East Morganchester,active
+e69918b2-c163-4db5-9696-d65488e11d6a,Isabel Lopez,lgibson@example.org,(915)640-0575x2831,2022-10-05,US,Washington,New Nicole,vip
+6840d6cb-832e-4640-8ea4-e4ce5dd3618a,Jaime Jones,justin39@example.com,+1-401-293-2270x9334,2022-08-21,US,Nevada,North Tanyatown,dormant
+d8b835b5-7caf-404d-b949-a047853c6e8d,Kevin Frey,caitlingibson@example.org,500.331.1940x4150,2023-07-31,US,Idaho,Tonyaland,active
+93062488-787e-4a58-8744-432f7d46f175,Jose Woodward,barbara84@example.com,877-685-8018x3866,2023-08-31,US,Mississippi,North Allisonfort,active
+98e6c96f-0aa1-4984-9823-b1055fd1a01d,Stephanie Morris,aprilwatts@example.org,5079217986,2022-11-08,US,Nevada,Serranoburgh,churned
+13c79610-e7df-49de-9310-706e5729f067,David Shah,michaelcamacho@example.org,(843)421-1986x3085,2024-02-29,US,South Carolina,West Garrett,new
+6ccabf87-5a51-4576-827e-32dee774ae4a,Lance Mcdonald,uwhite@example.net,+1-944-712-3590x678,2022-03-27,Canada,New Brunswick,Sanchezhaven,vip
+9dd17095-a451-48cd-90c8-aa3a879c513a,Kathryn Kane,gingram@example.net,7184513177,2024-03-29,US,Iowa,West Williamchester,new
+ff9ac045-0a1d-4e5e-8430-e9bbe4f738d5,Daniel Barrett,david81@example.net,001-714-854-3080x6129,2023-07-26,US,Minnesota,Carrillohaven,active
+9f01a136-6844-4c86-bbae-e33307678df1,Ryan Smith,jamesschneider@example.com,705.620.2868x725,2022-08-29,US,Louisiana,New Lauren,active
+f412eab6-e513-469e-a254-7f91ed01f703,Stephen Wells,peter30@example.net,362-472-7995x0377,2023-08-08,Canada,New Brunswick,Lake Erichaven,active
+89163df0-bd29-46e3-8634-8bb5b3ab3ca2,Anthony Green,gcarpenter@example.org,(283)204-0679x7425,2024-01-07,Germany,Hesse,New Meganton,active
+75da07d1-138a-4489-a4fd-b4f9b8d68e79,Melissa Cross,kruegerheather@example.com,(304)823-6119x2741,2022-07-30,US,Utah,Nelsonview,dormant
+da511b54-eca0-4f17-bafc-09f4da569992,Ronnie Anderson,elizabeth45@example.org,8926755637,2023-04-11,UK,Northern Ireland,East Paulhaven,dormant
+fae42c58-482c-4588-8f7e-095b343898e5,William Hammond,betty53@example.com,001-773-218-0228x0666,2022-06-07,US,Alabama,Matthewborough,active
+1515a6e2-869c-42a0-88fd-f72eab5da3ac,Paul Brown,codytaylor@example.org,200-703-9784x35192,2022-06-27,US,Nevada,Robinsonstad,vip
+49979648-8c3f-485e-9f2f-00f4ac03d4cd,Kathleen Taylor,thomasgraham@example.org,(846)849-3757,2024-04-20,US,Indiana,East Kevinborough,new
+489ea9ac-f64a-4f17-84e1-a2efcdefd755,Jesse Marquez,anthonyjason@example.net,644.218.7875x4275,2023-11-15,Canada,British Columbia,Greenview,active
+c471c6e7-12f3-4f27-8c9a-2f2575a809c9,Janet Todd,rsanchez@example.org,684-806-7646x775,2022-02-08,UK,England,North Briannamouth,active
+3c991bd4-46fe-4a0c-bc7a-c117335152fa,Jennifer Delgado,robert70@example.com,593.914.9241,2022-09-19,US,Alaska,East Kelly,active
+58aea400-06e7-405e-9f77-a5753b18fa4a,Ariana Oconnor,gonzalesjanet@example.com,648-773-1023,2023-11-04,UK,Northern Ireland,Lake Meghanside,active
+038c10ae-ddb1-4e4a-9a31-cd9e4f81c9bd,Christopher Keller,catherine11@example.net,977.502.9222x328,2023-12-30,Canada,Alberta,West Lindseyshire,active
+694ca800-2a62-442d-81c1-8d9917dfe1a5,Margaret Fields,johnsonalyssa@example.com,(522)589-2696,2023-11-02,US,Ohio,Ponceland,active
+f1f11a61-9cb6-47c7-8834-8819657b6582,Tim Chavez,lerebecca@example.org,001-751-202-9469x1788,2023-11-01,US,Virginia,Taylorview,active
+40f7a946-838d-4fef-bbde-71a374fd6f74,Johnny Johnson,awalsh@example.org,871-749-5849,2023-08-17,Canada,Nova Scotia,New Zacharyfort,active
+71fe83c2-4804-42c9-b7d0-40dce903ff1c,Richard Jenkins,mlee@example.org,+1-939-714-5884x8866,2023-09-21,US,Alaska,West Blake,active
+5c2e21a1-7e06-4984-9dcc-7f8374d3daba,Grace Taylor,qhaas@example.net,001-668-926-4195x397,2022-06-01,US,South Dakota,Danielleborough,dormant
+af94a0bf-510a-4b97-b666-05fa9bf87274,William Obrien,dunnchristopher@example.net,(968)465-1990x30465,2024-04-28,Canada,Nova Scotia,Lake Spencershire,new
+c1bdb774-56d3-4b5c-9130-f35d4aca2846,Cesar Hughes,opatterson@example.org,(912)339-3116x6386,2022-12-15,US,Minnesota,Stuartside,active
+4ceb54d0-7aa0-46fa-b9e0-5a103fe8d1c5,Jennifer Hawkins MD,xruiz@example.com,+1-904-856-9293,2024-01-02,UK,England,Pattersonstad,active
+562d7c0c-c5aa-459a-af4e-d9cb61eb8b8f,Travis Roberson,christopher29@example.com,361.544.0654x082,2023-09-16,UK,England,North Johnview,active
+98626665-c368-4bfe-ae6a-9c68dcf40582,Kevin Harrison,ambercollier@example.com,605-256-3972x514,2022-03-03,US,West Virginia,Reedfort,active
+e5643a23-7baf-41e0-bf5f-09208269f289,Justin Ortiz,schultzbeth@example.net,386-212-2544x385,2022-07-06,US,Pennsylvania,Ericton,dormant
+c3da493c-44ea-47b9-838f-129470db0806,Mr. Timothy Edwards,morenogabriel@example.com,+1-686-639-3364x508,2023-06-24,US,Iowa,Geraldfort,active
+563a4e64-868a-4f8c-b9d6-bf76cef8f4c2,Elizabeth Davis,ronaldtaylor@example.com,661.563.7802x741,2022-01-07,US,Minnesota,Brownshire,active
+d7f1fbce-34f6-431a-831b-0932ad165ed3,Steven Brown,julieward@example.net,+1-946-673-6926x287,2023-12-08,Canada,British Columbia,South Michael,vip
+85e6ac54-dfd6-4c62-9415-4e1d1c3dc1bd,Jared Zavala,ernest23@example.com,001-715-728-3253,2023-04-15,US,Oregon,Markhaven,active
+f1ecb045-a852-4eb2-bb37-2389dbeb8db5,Chris Bowers,robert37@example.net,+1-255-402-3607x8355,2024-03-07,US,Utah,Luisville,new
+f461704f-ef38-4400-9a3f-f51539f5598a,Brett Wells,brandonhicks@example.net,334-243-1139,2023-10-27,UK,Northern Ireland,North Kevinbury,active
+a02cc18d-81bf-4949-b625-5d6a6103e556,Natasha Davis,hartshane@example.org,+1-563-664-7838,2023-03-19,UK,Wales,Yodermouth,churned
+2bf39097-0bf2-4fc3-b2f3-818bf1a031ad,Linda Phillips,tonyjohnson@example.com,6537267699,2022-01-23,UK,Wales,North April,active
+6098fd16-d6f1-41de-ad44-f3e81f914dd6,Christian Davis,hannah68@example.org,2278637785,2022-09-30,US,Iowa,Williambury,dormant
+48848f3c-1b69-463a-9063-a927bc8ff7c0,Denise Rodriguez,isabella86@example.org,494.491.0098,2022-10-04,US,Alaska,Dawnville,dormant
+ea6e9c20-23c2-4682-aef5-1f9b89ef4dac,William Garcia,sdean@example.net,(464)364-9010x99331,2022-02-25,Canada,British Columbia,Marksview,dormant
+adbed855-78db-4802-bd62-5513466609a1,Eugene Sanchez,gonzalezjennifer@example.org,001-992-522-9657x567,2022-10-26,US,Kansas,East Christine,active
+ba05d267-f61f-4489-8ff5-ef22c502d1d9,Paul Contreras,shannonpollard@example.net,711-878-0581x09794,2023-11-28,US,Rhode Island,Kellybury,active
+94cf64d1-7de0-4f58-bdb7-1d849a711901,Jason Edwards,michelleanderson@example.org,7435075799,2022-08-24,US,Missouri,North Nathaniel,dormant
+4cdc40c4-78d0-4fbb-a563-e488eccc179f,David Thomas,ghooper@example.net,740.633.6267,2024-04-11,UK,Wales,South Jermaine,new
+4be39f5b-f970-406e-a161-72a345f5c305,Dennis Gallegos,murphyjack@example.com,831.269.3060x216,2023-06-08,US,Oregon,New Edward,vip
+efec099a-28f2-406d-af40-cd258fc066dd,Tracy Jensen,uvalentine@example.net,951-842-1827,2023-09-26,US,Utah,South Williamberg,active
+3fe48d95-d40e-4a20-958c-81dff9afcf46,Angela Reid,brianparsons@example.net,(825)492-5333,2022-09-03,Canada,British Columbia,Melissatown,churned
+ef8c196f-273e-4e3c-8b99-687e378367d8,Francisco Lozano,erik69@example.com,+1-250-661-3422,2024-03-09,US,Connecticut,Haroldshire,new
+3b7c1395-72e2-40ac-b012-be50cd824a0d,Elizabeth Reed,susansmith@example.org,853-618-0309,2023-06-06,US,Montana,Port Traceychester,active
+0b6c39e0-8c4c-4f66-8806-8c90db05fa5e,Laura Love,williamobrien@example.com,729.684.8407x0180,2023-10-02,US,Washington,Andrewhaven,active
+63bd59ec-e46e-4d8c-b803-450de8c8dba9,Kyle Cantrell,tony73@example.com,+1-562-499-1213,2023-07-19,Australia,South Australia,Bruceburgh,active
+a0228460-77e8-4edc-b97f-14dab3d9bed1,Angelica Moran,sheltonkristina@example.org,001-973-961-8890x229,2022-08-23,UK,Scotland,West Cory,vip
+9668ef01-8ca7-4718-940f-b56d3cee784b,Pamela Meadows,traceypena@example.org,280.220.8552x32551,2022-01-24,US,Maryland,East Davidport,vip
+ff9a9586-7d89-4986-afd0-b20ab9d02770,Darin Torres,kingsteven@example.net,810.507.9874x606,2024-03-05,US,Ohio,Jasonview,new
+67f3f05c-cc51-45f6-8ada-875921215777,Cassandra Norman,cmorse@example.org,001-347-303-3726x743,2023-12-05,US,South Carolina,Jesusberg,active
+32f7aad0-fad7-4194-a489-858c3aed9c66,Erin Juarez,arroyomichelle@example.com,001-769-328-7310x8935,2022-02-20,UK,Wales,West Kathyton,active
+3bd168a1-74d6-4c37-b293-0ed057261425,Joseph Kennedy,browntammy@example.com,001-345-498-8087x8561,2022-04-09,US,New Hampshire,South Christopher,active
+0024ef3b-9f46-4b6c-bd23-0ca1ed88d4e5,Kara Contreras,richard67@example.org,+1-276-369-2892x298,2022-10-20,UK,Wales,Moralesburgh,active
+04b9f770-c9bc-46cc-9b95-18ff01c7b38f,Ann Burke,butlerdonald@example.org,853-229-4110,2022-12-27,Germany,Hesse,Jenkinsmouth,dormant
+b90b6ae4-f6f4-42ad-b219-cab0c872a816,Steve Byrd,brandon12@example.org,605.479.9997,2023-07-20,US,Mississippi,South Catherineberg,active
+dfb4d804-80b3-4d76-b7d8-398eacf372f5,Joseph Coleman,robert40@example.com,952-482-7065,2022-03-12,US,Arkansas,Wileyview,vip
+b9cfc4e5-f0ea-4f7e-a69a-528912d7b2ba,Kelly Diaz,hjones@example.org,+1-841-880-7207x5829,2023-11-21,Australia,South Australia,Westfort,vip
+3c2dd53c-65ba-4ffc-96b3-f135cb4db599,Sonya Smith PhD,dwood@example.net,614.936.2804,2023-01-06,Germany,North Rhine-Westphalia,Mikeland,active
+12e1208c-266c-4391-a88f-c79881fd785d,Joshua Steele,friley@example.org,742-498-5729x608,2024-02-09,US,Delaware,West Ashlee,new
+4b92eddc-5bf3-4aa1-8e2e-e91c0f44c03b,Gregory Grant,lawrencejamie@example.com,942.619.3193x994,2023-03-07,US,Texas,Crawfordchester,vip
+9b92f095-ef79-44ad-9f48-b93688dece25,Ana Underwood,fcain@example.org,248.937.2227,2023-02-24,US,Kentucky,South Tyler,active
+faa30191-e834-4072-ba7d-99bb8ec39145,Sheila Moran,ericpeters@example.org,524-849-6904x348,2023-04-27,US,Alabama,South Jessicashire,dormant
+9f2292df-a341-446f-8ee0-451a2b17b0e5,Norman Wagner MD,kevin03@example.org,(425)621-3014,2023-10-29,US,Louisiana,East Patriciatown,vip
+dbb50ca7-f392-45a3-95fc-2919014dcee0,Scott Harris,gknight@example.net,759-266-2147x39350,2023-06-26,UK,Northern Ireland,Lake Kelseyview,active
+bc2db1aa-ad75-4c24-88a7-d62f2eb33f47,Logan Pearson,edward99@example.org,+1-547-977-1519,2023-07-03,UK,England,Foxland,active
+ec151f56-80bd-4125-8ad7-18468e494aab,Christine Jenkins MD,clee@example.com,(365)517-0120x8019,2023-09-22,US,Nebraska,Smithchester,active
+35478536-7740-47b2-84f8-bc501ceb1fb8,Crystal Rivas,ngardner@example.com,486.295.2548x800,2023-01-17,US,Arkansas,Bradleyfort,active
+69b7809e-f2fd-4e6f-9f93-af5405829637,Jeffery Thomas,oholden@example.net,(561)475-8736x09397,2022-02-06,UK,Scotland,Gillport,dormant
+f4c3cb7e-be58-4e40-9e10-73a909693778,Lisa Whitehead,bridget73@example.org,7834637736,2022-02-05,US,Wisconsin,Tarachester,dormant
+4abd67b0-664a-4049-9ddd-f9f30f4542c2,Anita Fischer,sarah01@example.org,678.662.6045,2023-05-12,US,North Dakota,North Sarah,active
+1d6b6ac1-08e4-4b34-a98f-634978a57778,Robert Bridges,nathanhoward@example.com,9097407798,2023-11-04,UK,Scotland,East Nicholasfort,active
+07b4e19d-261b-4e99-b6de-fad079d7d1d1,Cody Delacruz,itodd@example.org,+1-817-380-4477x3235,2023-12-21,UK,Wales,East Meghantown,active
+ef7ffc4f-13aa-4843-8838-38e09805bd8a,Jared Terry Jr.,rebeccamurphy@example.net,(494)598-2249,2022-02-07,US,Delaware,East Amy,active
+1d13d60d-8223-4961-b679-208d4fe4f126,Seth Knapp,sweeneycharles@example.net,518-755-5703x205,2023-06-20,US,Montana,Jonesmouth,active
+56fb0e78-fee1-4ccc-a361-8022b5c5bd0d,Shaun Williams,smithelizabeth@example.com,001-551-677-4562x9005,2023-08-02,US,North Dakota,West John,active
+8aa03030-bd6f-4181-9501-54bfc1260faf,Marissa Scott,stonemichelle@example.net,(506)227-5102,2024-02-04,US,California,Marthaberg,new
+a44f057b-1830-4800-9fa1-8e61907c47a7,David Young,tina86@example.net,+1-860-445-4867x58130,2022-03-29,Canada,Quebec,Port Jessicaberg,active
+d25bf9d9-a2d8-49eb-b520-f41c2146b002,Michael Olson,casey72@example.net,+1-415-491-7175,2023-02-01,US,Rhode Island,Francesberg,dormant
+72a1dbfe-e9dd-47ee-b1da-cd827b5ff40e,Reginald Hartman,rodriguezgary@example.com,(557)941-4708x86232,2023-11-25,US,Iowa,Huynhfort,active
+bfc00672-9570-4b24-845f-2721ac16580c,Sharon Brown,baxterallison@example.com,001-231-905-5405x013,2023-05-02,US,Rhode Island,New Yvonnestad,active
+3bcc1ea3-d46d-4754-932e-487abaad8967,Daniel Hernandez,dmiller@example.com,579-212-0674x800,2023-09-19,US,North Carolina,Solomonburgh,active
+e9fa39b5-7e54-45f9-9766-fd33eb31f8c7,Cole Clark,emily67@example.org,8718043099,2023-11-12,US,Texas,New Leah,active
+4a9c434c-9c1f-4472-b2fd-dff6594bbc7a,James Barton,robinsoncathy@example.net,001-488-774-2481x802,2023-08-23,US,Michigan,Parkerton,vip
+f7d93bb0-b87b-4c36-a5c1-21e60bfcb1cc,Brittany Jensen,ashleykennedy@example.net,980-351-9606x407,2023-12-11,US,Tennessee,Smithchester,active
+741e7b87-e85f-415f-a9b6-d8643f7e9098,Elizabeth Cox,rebeccamarks@example.com,(821)734-5809x121,2024-04-25,US,Maryland,Port Alex,new
+891c51b2-7e5b-4bbf-9084-7a0e23027890,Chris Arnold,smithdarryl@example.net,795-997-9758x2359,2022-09-03,Canada,Ontario,Rogersview,active
+c9bad0a2-715a-483e-b079-faf9625d06cc,Michelle Garrett MD,morrisjeff@example.com,+1-548-318-5560x048,2024-03-30,US,Alabama,Rodriguezchester,new
+046207b2-0840-4d28-a8fc-5ea9166dca2e,Bobby Camacho,erindelgado@example.com,545-730-7207x1011,2023-01-13,US,Oklahoma,Bowmanstad,active
+079ce70c-3cb6-4521-8809-2faff8701e47,Jacob Small,brianfarrell@example.org,887.740.2210x715,2022-02-06,Australia,South Australia,Jaredside,active
+1e475fd2-d99b-479e-bffb-44352b2a5211,Mark Frazier,castillocynthia@example.com,+1-775-204-2638x7812,2023-09-25,US,Michigan,Port Monica,vip
+48363c09-6497-4ba0-bcf4-09e8bb453631,Michael Chapman,rpetty@example.com,(454)900-2320x99140,2023-02-06,UK,Scotland,South Kerri,active
+1899a723-ca24-478f-b85c-b2f3676590b7,David Walker,morriscarol@example.org,+1-586-725-7476,2023-08-03,Canada,Quebec,Walkerport,active
+95b9e99e-8da9-472d-b104-ad0fc1cafc6f,Robert Rivera,nthomas@example.org,(473)558-2569x8828,2024-04-28,US,Missouri,Saramouth,new
+6f59fad8-41b7-42a6-af73-9b80f87b7445,Matthew West,webbwanda@example.net,+1-669-427-2568x0411,2024-02-03,US,Alabama,Loristad,new
+6ce6fd6e-46f1-491d-8cbc-5486ffd76030,Thomas Berry DVM,sarah96@example.org,001-703-985-2180x2367,2022-04-22,Canada,Alberta,Cheyenneton,active
+0acd28ce-867d-4619-95f0-c0836ed4fd94,Vickie Ellis,johnroth@example.com,618-378-7551,2022-07-15,UK,Scotland,Bookerland,churned
+2fabf93e-bc3e-47d8-88e7-6e1f8bc05df8,Mike Gomez,daniel35@example.net,842-748-6145x0217,2024-04-13,Australia,Queensland,North Lindaville,new
+196ef926-4d73-4905-bbae-ce3d6cd3f88f,Luis Smith,kevinwalter@example.net,249-224-3236x235,2024-04-01,US,South Carolina,North David,new
+6eb3320b-6e5e-4682-a262-c7071172cd40,Christopher Santana,michael35@example.org,+1-256-890-8281x203,2023-10-28,US,Texas,North Matthewfurt,active
+90855215-b46d-4df4-923c-2d6d29bd1151,Alexandra Rosario,williamsveronica@example.org,+1-793-205-4772x9854,2022-05-26,US,Indiana,West Roberthaven,active
+b252ec66-4942-486d-821b-b5d794f4bb9a,Kari Stephens,cynthiahoward@example.com,5526711499,2023-05-27,US,Maine,Jonathanport,active
+a118fec1-d64b-4224-ae0e-43679cb40834,Taylor Smith,jenningslucas@example.org,534.284.1295x739,2024-03-19,US,Alabama,North Thomaschester,new
+e2eaa58e-11a7-492a-8635-fd6bd1ea6c9e,Amy Williams,eperry@example.net,+1-624-927-7070,2023-08-01,US,Wyoming,Andreaview,active
+dfc3d355-99b1-47b9-97bb-9ed946979873,Brenda Anderson,ccooper@example.com,431-327-7448x67771,2023-10-13,US,New Hampshire,Parkerside,active
+0bd10542-c2d9-4b58-939d-834d3088284b,Anna Brown,zacharywallace@example.org,204-944-4477x636,2022-05-29,Australia,Queensland,North Peter,active
+b1b95c1c-d7a1-4f1c-897e-41b947bdfe2d,Rachael Avery,ian55@example.net,(922)327-9836x957,2022-08-06,UK,Wales,West Ashleyfort,dormant
+9b954335-f41c-473d-b707-8bbb94f32d13,Sharon Byrd,cynthia71@example.org,851.435.1857x05391,2022-12-17,US,Wisconsin,New Ianland,active
+a8a51093-ad9b-48e8-81ea-b3eaf2c7966b,Robert Stokes,zcolon@example.com,(605)954-9182,2023-04-27,Canada,British Columbia,Shannonhaven,dormant
+9f0e827b-cbef-419d-8068-745643ac469c,Susan Buckley,adriana16@example.org,815.460.9782x0362,2022-01-10,US,Alaska,South Nathanfort,dormant
+58a14180-d9ec-4561-b1dd-a24ed3188072,Dylan Woods,maryoliver@example.com,(536)525-2230x8389,2022-05-23,US,North Dakota,Jackiehaven,active
+8063656d-d7ae-494a-9672-10569d0e80c5,Elizabeth Patel,brookecowan@example.net,(735)377-6725,2023-11-07,US,New York,Port Christopherhaven,active
+ebc7b605-9d0c-49fc-a758-fd791bed3f26,Brooke Fowler MD,ashleeadams@example.net,001-448-693-8029x84784,2023-03-04,UK,Northern Ireland,Rickymouth,active
+954d4ad2-815c-4d1f-aef5-c7faf4df0dc6,Daniel Davenport,johnsonleslie@example.org,(304)669-0264x786,2023-09-27,Germany,Berlin,Sonyaton,active
+8516d914-467a-4f84-9569-28fde6b2ad1c,Veronica Evans,marklee@example.org,402-390-8482x51998,2022-08-26,UK,Scotland,New Kendrahaven,churned
+317f2205-59c6-476a-b9bb-f6428b7b85b7,Caitlin Griffin,mathismichael@example.org,453.592.5021x21850,2022-10-21,US,Wyoming,South William,active
+69b8c25f-636c-45ea-80aa-3413eb6f7f7d,Daniel Campbell,tuckerstacy@example.org,913-784-7107x50543,2023-08-27,UK,Wales,Longhaven,active
+8c90cce2-f90f-4065-862e-095e6f535ef6,Lisa Kaufman,hallwesley@example.org,5256784952,2022-12-25,US,Alabama,Christinamouth,active
+c11a0fad-e2b0-442f-97c0-19cf9c7e44f8,Stacey Brown,johnkim@example.org,001-316-275-3809,2022-10-10,US,Arkansas,Lake Kellyview,active
+2b296d34-d086-4b39-89ab-f0b9cf6b06bd,Lindsey Burke,lisavillanueva@example.org,3585141561,2023-10-15,US,Florida,Vegastad,active
+a3297b8f-90e1-454b-954a-78b5ac4b0a16,Alexandria Logan,garygordon@example.net,395-923-7581,2023-01-09,UK,Scotland,Barronton,vip
+481ce437-0759-4902-82f7-b9ea79c0d9ea,Lisa Simon,scottamy@example.org,001-740-888-0673x36172,2024-03-11,US,Ohio,North Kellyport,new
+3f7c0611-00d2-427d-91bc-1c21fbfb9aa9,Mario Frederick,stevenwerner@example.org,472-505-4420,2022-03-12,US,Virginia,West Edwin,active
+51453b0a-2bf2-4ff4-b06a-5f8752fc9c88,Jeffrey Villarreal,nmartin@example.net,378.817.7211x567,2022-12-11,US,New York,South Phillipland,dormant
+4fc4bca9-8e80-449b-95ab-d3e92fa50df2,Jason Walker,hscott@example.net,+1-885-734-0234x42279,2024-02-19,US,Nebraska,Ericshire,new
+1d6f512b-d6e4-46da-80da-4e713e662396,Stephanie Garcia,hartgary@example.net,(539)402-7754x44785,2022-04-09,US,Pennsylvania,Port Brianaland,dormant
+49d7dcc1-2b71-4bff-8ef5-13c6343b3a97,Sarah Scott,cheyenne71@example.org,+1-386-375-8298x12805,2022-11-17,US,West Virginia,Lake Lydia,active
+319e8a40-64db-4c24-90c0-115cb9b485c6,Alexander Carlson,robertswilliam@example.com,867-662-1104,2022-11-29,US,Maine,Melissamouth,dormant
+a370220d-7780-4ca2-9844-5debb9f4745f,Lisa Lawson,sarahgilbert@example.org,001-879-810-9965,2023-11-02,US,West Virginia,East Wanda,active
+17d862c4-c982-4606-9ddf-861363c0dd71,Shelly Rangel,xhenson@example.com,(518)547-1512,2024-03-02,US,Michigan,Davisberg,active
+363b97f4-0f73-4c9c-966c-e88bec055e07,Miguel Hopkins,frice@example.net,(870)771-6206x894,2024-04-09,US,Minnesota,Lake Nicoleland,new
+623c18b1-ee0f-41e2-a455-911e91f4cd43,Caitlin Caldwell,davisashley@example.com,001-550-796-2644x130,2023-02-17,US,Utah,Anthonytown,active
+d9b619fe-e7a1-4690-bc34-554cca8e7900,Jason Lee,ajones@example.net,227.961.5095,2024-02-18,US,New Mexico,New Stevestad,new
+a7349849-7da9-4848-a6f5-1b84e7e32f58,Maria Mccormick,lsmith@example.org,001-818-460-7231x642,2024-03-05,UK,Northern Ireland,Jonesshire,active
+5c796213-d509-4978-bb03-5a28a2cf0d59,Katie Jones,nkaiser@example.com,254.323.9443x177,2024-01-27,US,Mississippi,Port Ronnie,vip
+45e913c6-8134-49a3-95c0-c9256f165dab,Donna Kelly DVM,amartinez@example.com,+1-526-498-8047x572,2024-03-16,Canada,Ontario,Walkerside,new
+6248652d-a383-4bc3-bb87-7c4f75c32cf6,Michelle Howell,hansendavid@example.com,001-588-836-2398x67014,2022-05-07,US,North Carolina,Amandaberg,active
+cdc822c5-597d-483a-881d-318c9565674f,Mary Chen,hensleyclaire@example.net,(899)270-8742,2022-03-14,US,Idaho,East Richard,active
+4194a41b-7ebe-4448-9668-b3ab24458c54,Joel Thomas,morrislinda@example.org,809.424.3821x404,2024-01-01,Australia,Tasmania,Monicafort,active
+08e14285-76f3-468f-a2df-2c6500a7bdef,Eric Hancock,gilesaaron@example.org,864.973.8145x77710,2023-01-13,Canada,Quebec,Garciabury,churned
+e54b0759-8f51-47e8-b118-23d87a6a3e49,Marie Webb,druiz@example.com,(649)338-5726x6547,2024-04-30,Germany,Hesse,East Mikayla,new
+bc3da3e2-e0f6-450a-8ed7-38c82f3499a8,Katrina Baker,gwilliams@example.org,(907)493-0361x10121,2022-08-19,Australia,Victoria,South Michael,vip
+cc22bba7-3631-420c-8c10-3ae3ff6cfb0c,Cindy Gallegos,mwallace@example.com,249.640.1859,2022-12-29,US,Washington,Whiteville,active
+3ea9c15e-8d0d-4449-945d-aa1445af5ada,Edward Stewart,garyduarte@example.org,940-447-3834x41639,2023-08-28,US,Wyoming,Hensonhaven,active
+35ba3d5d-9552-461a-9656-b63cd6795948,Sandra Dennis,nathan73@example.com,215-694-1534x042,2024-04-11,US,Minnesota,Nelsonview,new
+20b0944e-7810-4115-a316-50b5cdd79742,Jimmy Porter,kimkristin@example.com,612-558-8545,2023-09-10,US,Oregon,Kennedyville,active
+80de749e-464b-4ec8-b46f-84094aae4f02,Samantha Torres,williamsterri@example.net,001-214-512-7764x0321,2022-12-24,UK,Wales,Myersville,vip
+47bfbf74-2f6e-421a-a568-ce6f26ec5eb3,Charles Martin,aaron63@example.net,6068013340,2023-07-11,UK,Scotland,Costamouth,active
+ee11ffc3-e9fb-4c8a-809a-93756d61aa47,Katrina Wilkins,miranda69@example.org,(321)540-9039x800,2022-02-06,Germany,Lower Saxony,West Chelsey,dormant
+faf58dfa-6842-4472-9af7-77fed7c68e2e,Gavin Welch DDS,dbennett@example.net,+1-225-461-2666x6734,2023-01-25,US,North Carolina,Zacharyfort,dormant
+a4b88b97-fdc6-4002-80e8-824eaa064219,Erin Martinez,schaeferanthony@example.com,001-395-806-8178x577,2022-03-18,US,Colorado,Oliverhaven,churned
+e57613d5-5b45-4d1f-b14e-e5711652bf80,Sarah Rodriguez,kevin26@example.org,705-344-1128x932,2023-06-06,US,Vermont,Lake Jennamouth,active
+0b14eee5-c3ea-411a-9877-6128875f3cd2,Keith Watson,hgonzalez@example.org,001-304-225-1949x886,2022-10-28,US,Kansas,Helenport,active
+edca91f4-a5df-44e1-83f2-4936c087d640,David Warner,dennis60@example.net,711.376.7648,2022-07-20,US,South Carolina,South Kyle,vip
+7167c83a-16a1-4b18-b2a2-7cace54172c0,Rachel Martinez,smithlauren@example.com,528.681.5959x341,2022-01-30,Germany,Baden-Württemberg,Jonesborough,active
+d06fee96-ed97-4343-bb47-f7dfcf9d403f,Ian White,tim25@example.com,719.217.4187,2022-02-11,Australia,South Australia,Port Ryanmouth,vip
+86935e36-48e6-45ad-a3fc-d46f406d3b3f,Courtney Miller,rramirez@example.net,(394)525-8602x0090,2023-05-07,UK,Scotland,Lake Davidhaven,active
+a33464d8-dd73-4c9f-acb8-c9edac2d6dc2,Heather Holmes,angela34@example.com,001-802-715-9105x269,2023-07-12,US,Washington,Rogerside,active
+bb1b7740-d2a6-46db-b26c-657bd0b73f9c,Leonard Serrano,calderonwilliam@example.net,975.608.8904x9397,2022-12-27,US,Virginia,Lake Zacharystad,active
+c637eec1-13cd-4608-95d4-9e97502e1af2,Nancy Gardner,thomas25@example.net,+1-855-410-4960,2024-01-31,Canada,Nova Scotia,Rebeccamouth,new
+cf65c044-bf6d-46b2-8523-35646f9b1311,Jason Davis,iward@example.com,+1-228-785-5282x6762,2023-01-08,US,Delaware,East Nathan,dormant
+5b73159a-c4fe-46b4-a4e2-cb90b47152f1,Eric Hall,kathyflores@example.com,(271)813-3747x517,2022-10-24,US,New Mexico,Bennettfurt,active
+33222fe5-45b2-4c33-b51c-50170078e219,Kelly Gutierrez,ericapark@example.net,001-967-561-2543x3203,2024-02-26,US,Kentucky,East Jessica,new
+2cd6b272-8d00-45dd-a67c-15f8cc00b776,Jessica Shaw,thomas70@example.com,304-953-9186x9122,2022-07-27,US,Connecticut,Emilyborough,dormant
+36bef2b1-ff0c-486a-a9b7-ca4dbf0cd690,Christina Sullivan,bweber@example.net,(447)695-6489x174,2023-01-26,US,Mississippi,Perezport,vip
+d9490d87-3c67-49b6-90e6-403f793de822,Nathan Cantrell,scottleonard@example.net,7067017171,2024-04-08,US,Hawaii,Lake Christopher,active
+5938fb34-b0d5-40bd-b8da-a028cd3ca29b,John Freeman,ryanvargas@example.com,527.803.2012x50831,2022-03-11,Canada,Manitoba,Kerrville,active
+8824d609-21e4-4fd2-bc10-5afb29a3bf4b,Janet Jackson,dthomas@example.com,625-316-9457,2022-04-17,UK,Northern Ireland,Juantown,active
+7b0eaf69-39ad-4cbd-9efe-8d0e4a546bb8,Stephanie Dickerson,rarnold@example.net,522.833.2847,2023-10-27,US,Idaho,Ericmouth,active
+ef7e2551-02f9-4219-98ed-b613ccb394f6,Casey White,ortegaryan@example.com,+1-786-451-4579,2022-07-21,US,Kansas,Lake Emilyborough,active
+c462d418-4789-49ff-ac06-9b8c711ca53e,Sarah Gay,thomasjeffrey@example.com,001-992-723-1316,2022-07-05,US,Utah,Henryville,active
+22952b7a-1e1a-4388-bbad-d376e9778071,Chase Walker,joseph48@example.net,001-549-553-6098x04062,2024-01-24,US,Rhode Island,Alyssaberg,active
+e46915c3-59e1-42f0-a9fa-607cce40914b,Donna Lawson,williamscynthia@example.net,269.718.1529,2022-05-26,US,Pennsylvania,Hammondtown,dormant
+d750d318-74f3-426c-a5fd-6baacbe32eed,April Wright,kim42@example.com,(518)421-6527x327,2023-04-26,US,South Dakota,East Benjaminland,vip
+c89947cd-2112-427b-ad85-84ef07d70067,Jessica Scott,simmonsrobert@example.com,(703)296-2588x36574,2024-04-04,UK,Scotland,North Michael,new
+214c3a33-22ad-42c6-87f5-77d40ad5136f,Matthew Colon,davidchurch@example.org,(339)944-3389,2023-10-30,US,Arizona,Millerville,active
+4268fe6d-322b-48c4-9e85-433bc5b80ea3,Dr. Brandon Campos,christensenrodney@example.net,723-720-6770x351,2022-04-03,US,Massachusetts,Lake Drew,active
+ff863a8d-2729-48c8-ada2-ba2a699de2f7,Eric Ramirez DDS,ellensmith@example.net,(236)355-6074x09292,2024-03-12,US,Florida,Rodriguezland,new
+d1d7954c-d789-4cb1-b46b-daade2050b99,Shannon Thompson,lmartinez@example.com,660.595.5219,2022-06-27,UK,England,Port Summerton,dormant
+3150d6cf-ca4b-4862-8867-918dc75219a9,Sherry Taylor,hoffmanvictoria@example.net,001-739-964-5343,2024-04-01,US,Rhode Island,Craneshire,new
+85c7bb1a-0faf-4ade-a502-ea4d2050b799,Courtney Wolf,nbrown@example.com,001-235-265-3874x95198,2023-11-14,US,Nebraska,Port Johnport,active
+a3a3a57f-c07b-42a7-88e5-e93a8eb6e6bf,Kevin Brown,kfoster@example.org,552.714.5639,2022-12-08,UK,England,West David,churned
+98583bd4-7715-4b05-9af5-c4eaf9847a95,Devon Mcdonald,dtaylor@example.org,703-963-3709x6492,2022-07-04,US,California,South Jake,dormant
+1afac992-3c50-43e6-98f3-b9e3bc13c6ba,Kurt Hall,vdean@example.com,405-312-4765,2023-11-12,US,Alaska,Royshire,active
+ee3462fb-b756-4e44-a0eb-227af4fa1c3a,Douglas Ward,james89@example.net,(431)304-7851,2023-11-28,Canada,New Brunswick,Colemanville,active
+7bfa903e-07ef-4ed6-be7b-d3b47f871530,Mike Norton,brianbryant@example.org,865-620-6288x3400,2023-06-15,US,Delaware,Robertshire,vip
+091e1978-6ed3-4cdf-97dd-d4e75f0461bc,Jessica Miller,grahamgabrielle@example.net,(976)417-7569,2023-04-30,US,Mississippi,Benjaminfort,dormant
+7fef3a73-5e10-4464-abc9-3aa76ef570e3,Robert Davis,matthew43@example.org,(699)463-5053x6213,2024-03-26,US,Michigan,East Melissabury,active
+80827f1f-7cea-41dc-9905-c25587477934,Michael Long DVM,johnstonandrea@example.org,264-770-3064,2022-05-15,US,Nebraska,Mooreshire,active
+1a35c6ff-298e-4a20-b58e-b8eb332ec156,Cheryl Carter,jessicakennedy@example.org,001-509-491-9967x65145,2024-04-05,US,Maryland,Lake Williamfurt,new
+502bcef1-e8d7-43c4-89eb-25fa42bc86e4,Angela Warren,christinamelendez@example.net,420.507.9507,2024-01-21,Australia,New South Wales,Lake Meredith,active
+ada0c740-36dc-4784-88d2-ec7e6f850e4e,Lauren Mcbride,sherry90@example.net,(631)691-4108x46934,2024-03-05,UK,England,Port Veronicashire,new
+382f413a-d565-4dd5-a44f-2b2ecb44e83a,George Potter,sarah52@example.com,801-803-2100,2023-11-18,US,Washington,New Heather,active
+b2602884-580a-4322-8398-c329c8ffebb8,Grace Young,mezaerin@example.net,(978)563-9319,2022-06-01,US,Utah,New Misty,active
+6e402455-fb4a-4b22-9bd1-58357ab112b9,Melissa Phillips,ogibbs@example.org,(285)466-0695x8454,2022-08-10,US,Tennessee,Larsenville,dormant
+6f94c06b-dbed-4ffc-a981-5b5934ad13fe,Amanda Barker,hollowayshannon@example.org,654.426.7854,2024-02-19,Germany,Lower Saxony,Port Jacquelinechester,new
+603a922b-6c7c-4ad3-b8c2-64ccddc6d639,Eric Bowers,elizabethbell@example.org,948-466-7429x95969,2024-04-19,US,Arizona,New Jason,new
+d8b3cec9-cf3c-4972-b5a8-44c3c117eb94,Mark Brown,lloydkevin@example.net,+1-980-991-6989x530,2023-03-30,UK,Scotland,East Tyronefort,active
+ad3a672a-64a9-4306-8f34-3de84ff2a4ce,Bryan Moore,lmoore@example.com,(422)413-2733,2023-07-15,Canada,British Columbia,Lake Paul,active
+90288747-fe26-475c-aeb1-afcd81613b16,Marvin Anthony,dcollins@example.com,261.316.4677x6831,2024-01-31,Germany,Hamburg,New Allisonmouth,new
+02aab034-c604-4e70-81ad-58129f84e70d,Thomas Hancock,yalvarez@example.com,263-264-8181x076,2022-11-16,US,North Carolina,Bartonside,vip
+27b818ea-629b-4095-b504-4a15a922db39,Christine Delgado,jennifercarney@example.net,001-680-282-9084,2023-11-06,US,Utah,West Matthewfort,active
+9242a58a-abf2-4882-a2bd-51ca976582ab,Lucas Quinn,cindyburton@example.com,716-268-4568x5930,2023-06-05,US,Washington,New Stevenfurt,active
+2707bcd3-11cb-40de-9392-18ac5008f35e,Elizabeth Edwards,mikesantiago@example.com,775-288-0000x871,2023-04-27,US,Vermont,East Lisa,vip
+4cea07b2-694c-43b7-9d94-7dfa2f7c3f8c,Michael Baker,anne73@example.net,001-647-672-1566x490,2024-04-07,US,Connecticut,North Jessica,active
+a47539cc-85c3-4384-8a94-038861ad8786,Kenneth Mathews,jenkinsanthony@example.net,966.661.9049x384,2022-09-01,US,Vermont,East Elizabethview,churned
+36467c88-e04f-47ad-9c9b-d9af3b2331af,Jessica Bright,maddoxkenneth@example.com,001-692-461-2046x7603,2023-09-20,Germany,North Rhine-Westphalia,Tinaberg,active
+9d56c6e0-4f1c-4d66-9ed0-4b734024d927,Jennifer Wilson,lauriebarton@example.com,999.531.7984x6600,2022-04-14,UK,England,Lake Matthew,dormant
+e4cf282b-3504-43d6-80cd-6737c7f9fb98,Dawn Rivera,williamgross@example.net,(777)212-0364,2022-09-18,US,Florida,Matthewview,active
+ad473f54-cfaa-4b35-99f5-532d72592f7a,William Owen,john97@example.net,001-606-451-0734x274,2022-04-01,US,Florida,Lake Wesleyfurt,vip
+644f4308-f64b-4456-ac97-c2468268ca35,Nicholas Hodges,john78@example.org,+1-992-859-3651x722,2024-02-21,US,Montana,East Davidfort,new
+b24c586e-6575-4d00-aa22-ff24b8486ef2,Michael Kirby,juan43@example.net,(829)886-7286,2022-02-24,US,Louisiana,West Carlaview,dormant
+e95b1f70-7c6c-4eb6-851b-d4370f6fe10e,Cheyenne Houston,xnielsen@example.com,740.626.1599x427,2022-03-08,US,New Jersey,South Laurafurt,dormant
+5dce77fd-cd3b-4283-a010-79dcf1969d1d,Andrea Griffin,kevinrussell@example.net,(419)265-2822,2023-08-04,UK,Northern Ireland,East Russell,active
+44db375b-40fd-4323-bfe1-6a190c88881f,Angela Duran,brownmary@example.org,(429)452-3898x32139,2024-01-12,US,Arkansas,Murphytown,active
+e3ee2646-6956-4df5-880a-d40c70e06998,Jasmine Thomas MD,shawnmurray@example.com,329.416.7476x492,2023-10-27,US,Alabama,New Samanthamouth,active
+d465c2b7-4fca-4bb9-8632-cbc1235ceefa,Elizabeth Flores,watkinsjames@example.com,(792)706-3460,2023-09-21,US,Rhode Island,East Taylor,active
+60ebcabe-5863-47da-8997-8ecc5c649270,Michael Blackburn,gardnerdeborah@example.com,246-314-7695,2022-12-17,UK,Scotland,Kempshire,dormant
+df93dde2-3047-43c8-857e-3f9f7396a894,Angela Guzman,perezvirginia@example.org,001-293-932-7928,2022-07-11,US,Ohio,Hobbsburgh,active
+e7a25f88-03b5-4f6d-9a8d-a5956d4ac66c,Jennifer Miller,bmoore@example.org,+1-472-700-5575x3220,2023-02-19,US,Indiana,Samanthafort,dormant
+7929e700-6f72-439e-9c51-e1f00afbc327,Jordan Alvarez,michaelthomas@example.org,(383)231-7879x353,2022-04-11,US,Pennsylvania,West Tamarabury,dormant
+92aacc43-43c5-4418-9678-dadb6b693f0b,Meagan Obrien,qgibbs@example.net,5877026717,2022-02-13,US,Colorado,Taylorburgh,dormant
+ef3b2c3c-ab94-496d-a2b0-fcbf98162195,Jay Smith,devon28@example.com,+1-283-437-3037x430,2023-11-26,UK,England,Julieberg,active
+859c4e8d-c729-4301-9f87-d393a6120d66,Richard Brown,james46@example.org,630.658.8366x516,2022-03-21,US,Louisiana,Johnland,active
+1b852adf-eda5-4d6e-a42d-cae3a8e718d5,Michael Macdonald,padillastephen@example.com,665-526-9294,2023-01-03,UK,England,Powellland,churned
+983094f4-1d7e-47a1-8613-1747a9051d1f,Laura Shields,zunigamelissa@example.com,5219165908,2023-02-26,US,Hawaii,Johnsonview,dormant
+68cfd71d-256e-4e25-8b2b-fbd7048f0c99,Jennifer Arellano,albertclark@example.net,650-776-6549,2022-10-05,US,Louisiana,New David,vip
+d90e44df-f759-427c-8a87-9aa0e8a3b732,Tina Maddox,merrittbrian@example.com,(660)751-5927x364,2022-09-30,Germany,Hesse,Olsonborough,churned
+b3a5b702-4adb-40e1-9a96-7e9b869cc524,Jessica Brown,umccoy@example.com,851.399.0436,2023-10-12,UK,Wales,West Kevin,vip
+07a53fcc-0104-49ba-87ee-5a9de9cd10b5,Sarah Johnson,sarahkrueger@example.net,(778)583-6376,2023-08-17,US,Colorado,South Kristi,active
+fe45a33b-e2ed-4c80-a918-01691ab02b37,Nicholas Perez,mhodges@example.com,001-394-993-0729x4504,2022-04-12,UK,England,Janetfurt,vip
+6400274e-ad92-41e5-b349-429ae7ef8eae,Kaitlyn Vaughn,smallmia@example.org,001-886-611-6063x9139,2023-11-11,US,Connecticut,Joseton,active
+c33d9370-6f16-40f5-a0f7-1c668bf9f643,John Dean,brandythomas@example.com,743.260.5709,2023-09-15,US,Texas,West Timothy,active
+6b900b4e-3f5f-4686-ba6a-24b61c668f39,Donald Hicks,josephlittle@example.org,9837282560,2024-04-26,Germany,Lower Saxony,South Isaiahhaven,new
+ce6abd3a-3078-4ba8-9dac-a40c4b6fcba9,Cynthia Roberts,tuckerstephanie@example.com,001-921-760-4723x82959,2022-05-28,UK,Wales,Lake Alejandro,active
+71017aa3-5bff-4f34-b600-4c35aaad3880,Maria Boyd,xweeks@example.org,001-746-662-4775x41299,2023-08-18,US,New Mexico,Ritastad,vip
+984b0359-06a3-4f31-98bb-cff581882bf6,Carlos Thomas,anthonyolsen@example.org,(351)635-0028x688,2023-08-08,Canada,New Brunswick,Felicialand,active
+a9199282-7d5d-4d33-8706-f8aff07b2e66,Jon Callahan,loriperez@example.com,974-752-1945x830,2023-07-06,UK,Wales,Port Jennifer,active
+278d1970-0544-4e9f-bbeb-fa3aab33b66f,Lucas Padilla,ebennett@example.org,(520)234-8178x42562,2024-03-01,UK,Northern Ireland,New Jason,new
+1b2e9092-8666-47e5-b883-83f20d3dba6e,Adriana Taylor,travis14@example.org,(335)363-3748x532,2022-11-22,Germany,Lower Saxony,East Stephanieshire,vip
+6210dc4f-881a-4ea1-8c29-824ae2891f1f,Christopher Fuller MD,ihart@example.com,(597)462-2530x775,2022-04-18,US,Georgia,Lake Laurenshire,dormant
+1fb25561-26a4-4762-be75-7bc01609052d,Jeremiah Duncan,hrobinson@example.com,(268)376-2350x768,2023-12-29,UK,Wales,Sarahhaven,active
+7e78b0e9-6156-4594-a32d-34b1b51c4c0f,Joel Chen,chad95@example.com,001-308-782-0460x268,2023-02-22,US,Hawaii,Perkinshaven,active
+64b659f5-c547-4f74-a1e7-50a0c0325eb7,Pam Gonzalez,booneaaron@example.org,694-903-2572x67954,2023-04-25,Australia,Tasmania,Christinemouth,dormant
+c5535ec3-768f-4994-9667-7bef27295a44,Jeffery Alexander,pdunn@example.com,(353)717-2628x4029,2022-04-08,US,Florida,East Tammy,active
+8b7b601d-b740-499e-864c-b9d1056ed861,Candice Armstrong,travis69@example.com,(993)709-0344x028,2023-07-07,US,Wyoming,Yuhaven,active
+e21d4513-ab2a-4ac7-9860-381724efa4a7,Caleb Haas,amber10@example.net,(647)717-3694,2023-05-11,US,Massachusetts,Austinton,vip
+1cd2c801-5a2f-479a-bc9a-8b08faa0c8e4,Marissa Williams,scott18@example.org,346.918.8032,2024-02-15,UK,England,South Sherry,new
+c44bc794-4a8a-43fd-abce-9c694e8830fd,William Anthony,hgoodman@example.net,(619)906-6794x28126,2023-06-12,US,Oregon,East Matthewberg,active
+d682e65f-62aa-43bd-8de9-67f6127b5c53,Randy Thompson,johnsonchristopher@example.com,910.513.2804,2023-06-15,Germany,Hamburg,Shaunside,active
+afc1c824-f5b1-4847-9219-cdf9aba4361a,Jared Simmons,kleincassandra@example.com,(800)835-2902x119,2023-03-21,US,Massachusetts,South Michael,vip
+b143dfbc-a2c3-43d3-807a-48925bd2715c,Bradley Jenkins,bradforddawn@example.net,001-909-881-8017x50102,2023-06-24,US,Kentucky,East Charles,active
+6a7419a1-b0f0-477b-9c84-4c42be645bf8,Alice Ryan,michelle60@example.org,001-415-677-1133x4659,2022-09-19,US,Minnesota,West Chase,dormant
+c70efc24-7937-4bed-a914-ae131c252469,Lisa Evans,hmedina@example.com,+1-522-497-1294,2022-01-08,US,North Carolina,Sandrastad,active
+5c792379-5a08-457e-b88f-01fbed011923,Jessica Mcpherson,reedbrittany@example.com,+1-544-456-2493x5451,2023-03-09,Germany,North Rhine-Westphalia,Longshire,dormant
+e28afd39-b42d-4908-b054-6dcc9f96b8ca,David Harvey,cantujames@example.net,219-996-0160x10288,2024-04-23,US,South Dakota,Daybury,active
+d1171204-eadd-4fc4-9a57-eda06c1e6a63,Daniel Nguyen,masonallen@example.com,(749)336-8822,2022-11-10,US,Alabama,Lake Michaelhaven,active
+5d7439f3-e412-4db2-9e37-c358a6e2c256,Sara Cannon,alopez@example.com,+1-641-479-1507x651,2024-03-01,US,Alaska,Lake Troy,new
+d6362348-f33c-4b25-9c4e-d965696b6fed,Maria Shannon,millsmichelle@example.com,393-204-3716,2022-08-07,US,New Mexico,Sullivanside,vip
+68197f74-f3e4-4f29-8ee1-0efb8500e190,Daniel Ashley,jacobwilcox@example.org,(213)308-9751x593,2022-02-14,US,Texas,Thomasshire,active
+0dd25507-0286-4353-b6e2-4fe8d3734adb,Christopher Branch,madisonmitchell@example.com,683-933-6383x74880,2024-02-15,UK,Northern Ireland,Millerfort,new
+5e85eedc-fef1-4739-a6d6-51f3291d7b4d,Carlos Harper,vjones@example.net,741-925-7516x19455,2022-11-30,UK,Northern Ireland,Adamston,active
+a7c63e0d-006d-4b7d-a0ef-818644b04a1b,Justin Tate,zthomas@example.net,607.625.9588x1885,2022-01-01,US,Georgia,South Rickhaven,dormant
+8893e9ed-3307-4fef-85b7-50e05435d0c8,Kelsey Mcdonald,jessica02@example.com,850.358.8861,2022-12-21,UK,Northern Ireland,South Annette,dormant
+75afd17b-adc5-4338-af31-fd42b9f69a6c,Caroline Huffman,dponce@example.net,793.905.7759x81834,2024-04-30,US,Nebraska,Margaretshire,new
+ea7be9f9-3c48-436d-a95b-0ffb76c45125,David Oneal,rsawyer@example.net,001-484-498-8962x66081,2023-07-22,US,Virginia,Markstad,active
+078d2eaf-798c-48f1-8d13-85f3f2430214,Jennifer Silva,mhenderson@example.org,(606)225-5350x3373,2022-10-12,US,California,Richardland,active
+dd75475c-5d27-4401-9bbd-a9364e86b364,Joshua Stewart,sheila80@example.net,742.860.7760,2024-04-18,US,Massachusetts,Lake Scottside,new
+45715a74-0eab-4fb9-aaa7-47e48d489973,David Delacruz,kennethmartin@example.net,+1-390-687-1033x124,2022-09-14,UK,Scotland,South Laura,dormant
+267c8861-31ec-4107-b92d-a0974781555a,Kyle Good,bochoa@example.org,410.287.9429,2022-09-17,US,Wyoming,Melissaside,active
+d7714b3f-527e-44f9-9672-5c13db415ab5,Abigail Hamilton,mathisdevon@example.net,+1-569-488-5935x4730,2024-02-21,US,California,Baileyport,active
+26c02a9c-d5e3-40d0-a883-3aecca6de4e6,Richard Hayes,adammeyers@example.net,(981)435-6624x85179,2022-06-18,US,Virginia,Anthonyport,active
+f97bfe17-9a8a-4b35-854a-51dc9ec37667,James Sanchez,angelabrown@example.com,001-502-789-9061x6070,2024-03-31,US,Texas,North Jacobfurt,active
+5f3bb043-2560-4f6f-9d3c-aadc4a5f7a56,Sheila Roberts,santostracy@example.org,976-714-3104x23658,2024-03-15,US,Nevada,North Richardbury,new
+ab91aa49-0cea-4a94-ab8a-4575d276b363,Steven Powell,floydkayla@example.org,6846271574,2023-05-26,US,Michigan,Kellertown,active
+a9bb95a4-84db-4311-b3c3-2da32078310a,Cassandra White,udonaldson@example.net,001-385-386-1700x4024,2023-09-04,US,Hawaii,South Crystal,active
+bb8fc581-2014-4120-9179-aaca5c6ab209,Michael Vazquez,hsimon@example.org,001-427-464-8221x376,2023-01-14,Canada,Nova Scotia,Jillside,churned
+af8125b3-5827-48ec-9828-e43a2917bab2,Jose Matthews,harpertroy@example.net,+1-624-389-6059x114,2023-06-07,US,Nevada,Sullivanfurt,active
+8eea27a6-30cc-4e8b-8bbd-2b90dc52afd6,Thomas Martin,audrey27@example.com,(208)351-1720x741,2023-02-17,US,Montana,Lake Matthew,active
+4d693500-67bf-42ec-b08f-0d3484e9b312,Melissa Mitchell,barias@example.com,+1-975-691-3311x29239,2023-11-23,US,Montana,Kathrynport,active
+1e8eed99-9b0f-463e-abc3-9ab34fb762fc,Valerie Daniel,elizabethrosales@example.net,240-786-7715,2023-12-01,US,Indiana,Fergusonside,active
+fc66091e-4597-4774-98ca-78e33c78e7c6,Erin Cox,vsummers@example.com,696-636-7519,2023-05-18,UK,England,East Kimberly,active
+ef26974f-7ed1-4e15-a53b-ae4a448d82e8,Robert Hernandez,richardsonalexandra@example.org,+1-925-974-4726x665,2024-02-05,US,Louisiana,Scottstad,new
+678c42ce-ac87-4a6b-b3d5-e7bb16af7b02,Kevin Ayers,millerlisa@example.com,828-740-9210x758,2022-04-25,Australia,Queensland,Mcintoshshire,active
+db2449f9-5204-43e2-9e34-1440718ab905,Dustin Roberts,welchmichael@example.net,001-472-982-3425x27629,2023-05-06,Australia,New South Wales,Christopherchester,active
+070a1c87-7d12-48ff-977d-ca032c246d92,Cheryl Jackson,vasquezveronica@example.net,+1-720-863-7057,2023-05-17,Australia,Victoria,Port Karenmouth,active
+5eb68511-bbcd-4dfe-8cd3-202ac370c091,Carlos Miller,darrell50@example.org,(379)644-0648,2023-08-03,US,Oregon,Lake Kyleside,active
+62b58bf2-f296-4766-bcb0-94877e17a086,Barry Oliver,sharonbrown@example.net,4748421738,2022-01-08,Canada,New Brunswick,Lake Linda,active
+b2824d7e-4906-405a-ab88-664492e26230,Jason Kelly,xortega@example.com,4873419704,2023-06-11,US,Nevada,Christianshire,active
+0113068c-ab30-4ccc-b8a1-80b2c242329e,Melissa Small,brandi79@example.com,001-503-410-6684x7978,2024-03-19,Germany,Berlin,Crystalfort,new
+dd3ec139-af6e-44b4-8861-c3eb5bf4f1a7,Anthony Carlson,butlerbrian@example.org,(713)916-8287x28819,2024-03-26,US,Florida,North Cynthiachester,new
+dd77825f-675d-4b91-add1-e194ae040280,Luis Foster,gbrown@example.com,4336072221,2023-03-03,US,New York,Turnerview,active
+4637135a-c550-4565-87fe-ab92e92603eb,Mrs. Brandi Miller,lynnperez@example.org,8979582933,2024-02-13,US,Mississippi,New Jacqueline,new
+cc92017a-3a4f-4643-8094-93c9b56d25e0,Erin Hill,vgreen@example.com,548-682-9480x666,2023-07-21,UK,Wales,Port Andrea,active
+affdd445-6fc8-4059-afa7-8425e1309193,Sarah Sims,lrivas@example.com,001-950-975-9998x421,2023-09-16,US,Texas,Seanbury,active
+7abe628c-5f9f-4706-aaaf-084fdc20ef20,Betty Spencer,jermainenelson@example.com,(707)699-5169,2024-04-23,US,Louisiana,Port Peter,new
+695c1b68-061f-4604-a6f3-eb9f666d96f2,Mrs. Heidi Horton MD,khicks@example.com,(631)684-6842,2023-08-17,US,Arizona,Christinafort,active
+885e9155-5f7f-4b8f-8225-48a4ec882510,Laura Nelson,danthony@example.net,985-601-2789x67499,2024-02-03,US,Rhode Island,Courtneymouth,active
+fe8e5d3b-9345-4bbf-b0d4-775b317acc32,Jacqueline Gomez,harringtonronald@example.org,(885)460-6479x325,2022-09-18,US,Hawaii,Rivasview,churned
+b6b870c5-93f3-40a8-977e-8e3fb792db51,Phillip Mcpherson,jrodriguez@example.org,(593)280-5008x99680,2024-01-17,UK,England,Benjaminborough,active
+ef17d089-26ba-4b7b-a2e6-b2e1f0c875f2,Nathan Vega,vvasquez@example.com,984-752-1053x30328,2022-11-28,Germany,Berlin,Lake Stephaniebury,churned
+aa5ef4d3-e35d-461c-b42f-4727402022c5,Stephen Cohen,carriesanford@example.net,(915)737-3392,2022-07-02,US,Minnesota,Larsonport,active
+4ad4488b-36c6-434e-b350-d7015a831661,Dylan Ryan,dmaddox@example.net,483.519.5321x6544,2023-04-04,US,Florida,West Heather,active
+4ed2cdf7-d061-4529-9282-1c78d6deee2b,Johnathan Mays,bradleymclaughlin@example.org,483.820.0786,2024-02-23,US,New Hampshire,Brownmouth,new
+07df5a41-4da6-48e1-8985-a748c58b87ae,Joseph Cameron,daviswilliam@example.org,+1-206-390-7313,2022-01-02,US,Arizona,South Karenstad,dormant
+3d00f038-feab-4cb3-8aee-67aa70c1836c,Caroline Daniels,swright@example.net,653-941-4253x147,2022-04-18,US,Alaska,Laurabury,active
+ecf41f20-56df-4ff3-95d0-820b334970e3,Arthur Ford,merrittlaura@example.org,851-594-4127x0193,2022-08-01,Canada,Manitoba,New Trevorland,dormant
+931e0c00-fbad-4c3b-80b2-d1b99368440d,Jose Klein,amyjuarez@example.com,517.729.0678,2022-06-15,US,Minnesota,Jordanbury,dormant
+75266be3-87f8-41d3-9d66-5bc1772eb93b,Erica Cox,berrychristina@example.org,+1-585-580-2137x224,2022-04-15,UK,England,North William,dormant
+0e8bf8d8-045c-4186-8640-1977e4c8dc45,Michael Gibson,rayrobert@example.org,281-987-9825x8819,2022-03-16,US,Ohio,West John,dormant
+148feb06-bbbd-4a83-a723-aebcf4c9bedf,Melinda Sullivan,tchandler@example.org,677-966-0984x4418,2022-01-01,US,Rhode Island,South Richardville,churned
+d23fab80-6a37-4326-990e-aaade4791ce3,Laura Lewis,ryan28@example.net,001-432-954-0292x9329,2022-10-07,US,North Carolina,East Barbaraton,dormant
+761c858e-765f-411f-8547-47271f16f38c,Maria Hale,scottsmith@example.net,(856)226-8483x68860,2022-10-05,US,Hawaii,Russellville,vip
+ecd53388-7ac2-4b64-ba63-bd45dbc475ba,Brandy Grimes,lisakelley@example.net,999.372.8806,2023-10-25,Germany,Baden-Württemberg,Greenmouth,active
+f90508f3-2df7-42e1-9d74-a398c92e55fd,Theresa Collins,thomas50@example.com,001-471-982-5840x04276,2023-10-13,US,Kentucky,North Matthewport,active
+593deab8-1108-47bc-8a0b-62dc81bd329a,Zachary Gray,johnkidd@example.com,7044150115,2022-03-18,US,Oregon,Craigbury,vip
+b419fa78-2d3b-44b3-9be3-f5b469f13341,Jane Gomez,nielsenedward@example.com,001-601-283-5968,2022-01-08,Canada,Ontario,Jenkinstown,dormant
+feb97e43-1c8d-4a8c-8867-bf59f914e27f,Carlos Wallace,brett20@example.net,9456034797,2022-04-18,US,West Virginia,Michaelborough,dormant
+3f15cd17-b080-4074-8a7e-c24cf8ae1be1,Ryan Caldwell,arice@example.com,759.842.1563x09619,2022-08-16,US,Michigan,Port Chad,active
+bdb5a2bf-2caf-487a-8811-af5e27d0e38c,Derek Mendez,brooke20@example.net,990.301.8874x9004,2024-03-22,US,Arkansas,Lake Marystad,new
+0f9c9278-9be4-4700-8d99-65c41d55f6e4,Stephanie Patrick,jenkinsangela@example.org,6758853340,2023-06-30,US,Hawaii,Gabrielaberg,active
+2b24d3f2-1e7b-492c-80e1-11d622359a2b,Zachary Shah,waynefreeman@example.com,(859)687-9887,2023-10-25,Canada,Manitoba,Longland,active
+3b39183f-6498-4b72-bae5-48e43d950d2d,Wesley Becker,joel05@example.org,001-554-830-3245,2022-03-03,US,Arkansas,Garrisonside,active
+ca5068fd-34e3-430b-8a08-ddb7d1521540,Todd Fletcher,robert29@example.com,445-906-4714,2024-01-03,US,Illinois,Territown,active
+6015445b-4128-4ca7-8b2b-2f14f1b866f6,Jennifer Vincent,samueldennis@example.org,7045409831,2023-05-20,US,Maine,Gordonberg,active
+c9a4a1eb-26e0-4f0d-9ad1-85db0fdda6d2,Christopher Lyons,timothy69@example.org,660.512.5126,2022-09-22,US,Oklahoma,South Raymondburgh,active
+826cbda9-ee71-42d7-8936-298ae408fba7,Michael Avila,cortezcharles@example.com,485.614.5366,2022-08-27,Australia,Victoria,East Kathleen,active
+9618f2ef-4b97-4f0a-a0c5-442d67239fca,Melissa Young,david94@example.net,447-914-8081,2023-02-21,US,Indiana,Timothyborough,active
+f40108b5-0b86-4011-b02c-2cc0a581efa0,Nicholas Merritt,efuentes@example.org,001-252-718-8039,2022-11-19,US,West Virginia,West Jasonbury,active
+966c308e-8dbc-4580-b67e-623fc5c14ce8,Ashley Sanders,anthonygallegos@example.net,708-307-1560x77748,2023-07-21,Germany,Lower Saxony,Jenkinsburgh,active
+8e67e0de-20d6-49cb-8671-53c041091ab0,Roger Navarro,erikarich@example.net,001-597-734-8378,2022-03-08,US,Louisiana,Shannonport,churned
+85646834-136e-4cb3-b7ab-a294b7716f0c,John Mathis,rjackson@example.net,983.563.5496,2023-11-26,US,New Mexico,Kyleview,active
+3d0a59a6-fa43-4133-ba4a-16017e7a554d,Joyce Reyes,leejulie@example.org,+1-488-234-3384x4316,2024-01-26,Canada,New Brunswick,South Amyland,active
+8543ba68-6d01-4bfd-b6bd-98a8e513295a,Matthew Harris,joewilkins@example.net,(298)487-5485x41786,2023-03-25,US,Michigan,Lake Erica,dormant
+822dc53e-0760-4041-b43c-bac3d0057bfb,Brandi Moore,breyes@example.org,+1-473-743-7057x411,2024-01-03,US,Wisconsin,South Michaelberg,active
+5cb6a244-06f7-4daa-a34f-91443d4cabdb,Dr. Kenneth Hess,ian10@example.org,(999)849-2949x81796,2024-03-31,US,Maryland,Pamelaport,new
+8a17e603-1fbc-4a3f-8c59-e7e30e4f8a11,Victoria Figueroa,valeriemeza@example.org,001-456-693-9511x3402,2022-01-03,UK,Northern Ireland,Lake Samantha,vip
+ac35dd04-811d-4a99-9ca5-8f1f178d5ef1,Tyler Vega,gregory14@example.net,(873)374-2404x90201,2023-11-10,UK,England,Lake Adam,active
+90783954-8b05-481a-94ec-1dae64f1e09d,Alicia Bass,bmclean@example.net,001-469-339-7831x410,2023-06-07,Canada,Alberta,Hughesburgh,active
+61cdccf9-1c42-4759-92a2-8b7af567043c,Lisa Benton,abigailortiz@example.org,001-541-705-0732,2022-12-07,Australia,New South Wales,Perezside,active
+9fb06801-51fb-4c99-93a3-aab00f852911,Monica Thompson,colecathy@example.com,506.681.5747x2003,2024-04-17,US,Vermont,Lake Paulfurt,new
+ec64233a-70d5-42c9-a0e8-bc9f567b5bd5,Maria Martinez,angela87@example.org,001-989-357-5032x912,2022-03-04,US,Texas,Victorburgh,active
+1b332dd3-a1fa-47ac-8eb2-584ccdc9e670,Amy Newton,hannah77@example.net,308-375-4036x325,2022-05-15,US,Tennessee,Pearsonburgh,dormant
+96b199e3-4632-416b-a5fa-82b63967b1f4,Hayley Anderson,rebecca27@example.net,4405987580,2023-12-10,Australia,Western Australia,Gonzalezshire,active
+3b3af1f7-cce3-4b64-92de-7d4366ff8737,Diane Schmidt,ashleywilson@example.net,+1-265-996-8609x753,2024-02-17,US,Illinois,Larahaven,new
+809b6ba7-c910-43e1-9630-919dd08184f7,Andrea White,foxsamantha@example.org,950.666.1586,2022-11-09,Germany,Baden-Württemberg,Brittneychester,active
+dd0cb009-6b28-4f48-a54b-074149d3ac86,Susan Welch,dawnpeterson@example.com,(239)294-2316x303,2022-10-21,US,California,South Kennethberg,active
+697ea13a-e77f-4f48-8d51-2d9b77e3a074,Anna Becker,ccosta@example.net,(343)728-9457x5369,2022-12-17,UK,Wales,Davismouth,active
+c186cb06-8a2d-411b-81ae-6bda6bb9a753,Danny Jones,sandrawhitaker@example.com,681-884-2726x1464,2024-03-26,US,Massachusetts,Port Lauraview,new
+5aa4887d-9dcf-4cdf-9598-199e4eb045c1,Penny Hall,jsaunders@example.org,+1-648-415-0846x79111,2022-12-22,US,Michigan,Hubbardmouth,active
+5bb8c050-31dc-4383-a5b0-cbcf01eb4022,Raymond Willis,michaelthompson@example.com,4832229003,2023-07-04,US,Kansas,Lake Emilymouth,active
+68cd38b1-2976-432b-9782-71e81b37ed97,Victoria Cohen,joneskimberly@example.com,617-369-2554x0506,2022-11-10,US,New Mexico,Lake Frank,vip
+a8c06da8-978c-43e5-8616-3f2585fe567e,Elizabeth Beck,fgreen@example.org,987-742-3575x5911,2022-09-14,US,Washington,South Nichole,dormant
+f7f82900-adca-4971-b76a-bf097d14befc,Cassandra Brown,seankelly@example.net,001-626-952-4198x8087,2022-04-29,US,Tennessee,Karibury,active
+0811221f-041e-4b6e-b5f8-9df05f0be232,Sara Wall,cooperdalton@example.com,(471)883-0128x50946,2024-03-04,US,Arkansas,Leblancview,active
+e4735f66-ceaf-4a93-b294-4ed2190f548b,Jonathan Hernandez,larsonamber@example.com,+1-321-311-2579,2024-02-08,UK,England,Chavezton,new
+d94a6949-d67a-4b7d-87c1-44e8d2b4a463,Troy Hayes,tinaberry@example.net,(762)711-6307x47689,2023-10-13,US,Virginia,Hernandezhaven,active
+643a78d8-106d-4a92-844d-34aea10dfb4a,Jennifer Thomas,stephenschad@example.org,780.447.2480x31792,2022-07-23,US,Arizona,Bakerchester,active
+9c865725-5855-4898-9235-bd940757f26b,Scott Knight,paul52@example.org,590-284-8276x532,2024-02-27,US,Kentucky,Dylanview,new
+4a14d4a7-97c1-486f-b16a-cb9e2816ce65,Robert Norris,gwhitaker@example.com,001-437-849-2019x17497,2023-02-10,US,Tennessee,South Michael,active
+8436ba26-9516-4536-adb6-9d3816ba67e3,Madison Gallagher,lozanokimberly@example.net,+1-476-728-3115,2023-06-16,Canada,New Brunswick,New Ashley,active
+84d97571-f54f-4ddf-a4c9-8f29a73324a6,Michelle Wood,ogibson@example.com,001-304-678-1970x6820,2023-12-23,Germany,Hamburg,Marytown,active
+fc7bc133-f81c-4e2d-8460-5dd8ac802206,Hannah Jimenez,tbowman@example.com,421-490-6015x25239,2022-03-10,UK,Wales,New Jamesstad,vip
+ac9c807c-df38-418d-a69e-a040000933e5,Sheila Ryan,julie66@example.org,936.909.5917x785,2022-01-10,Canada,Quebec,West Robin,active
+18698dd2-3a52-4866-9baf-f5a358375f4b,Mary Smith DDS,tmiller@example.org,907.474.5834,2022-10-04,UK,Wales,Mccalltown,churned
+d847923f-201b-4fed-933d-8c1c47c088cf,Adam Liu,daniel04@example.org,(367)825-2677,2022-12-29,US,Wyoming,Robertfort,dormant
+0e444be7-c58b-406c-88bc-cc96872a8703,Janet Boyle,theresa82@example.net,(594)867-7280,2022-04-13,Germany,Hesse,Hancockland,active
+1dbadc07-ac1b-4405-aeee-ba9e560b8a95,Robert Mcdowell,flynnderek@example.com,001-694-391-8361x289,2022-04-19,UK,Wales,Chasehaven,active
+6dfab93d-fca4-4074-9226-58b946ce0d1b,Michael Hicks,emily91@example.org,886.879.0815x136,2023-06-23,Germany,Berlin,West Joybury,vip
+30926c6e-1e8a-448a-9b83-a7e03b17779d,Kristen Ortega,juanfoster@example.net,(545)308-7045x225,2024-04-20,US,Illinois,North Robertside,new
+162cf92f-8972-44a9-949b-da75c8847a9a,Mr. Charles Smith Jr.,matthew59@example.net,+1-809-687-6162,2023-11-06,US,California,Rossfurt,vip
+6a18ab29-0e69-49de-aa20-93f3de10bd9a,Wayne Simpson,jessica53@example.com,737-709-7629,2022-05-11,UK,Scotland,Waltershire,vip
+06288018-c6d4-45db-94ef-6288fc68400b,Richard Collins,uhernandez@example.net,889-387-1409,2023-01-03,UK,Wales,New Kellychester,dormant
+7d700a14-24f8-4255-987d-a7ef2091eff5,Terry Smith,april45@example.com,297-931-6994,2023-12-06,US,Illinois,North Dean,active
+097e475d-8242-4cb8-aa7f-16600c6f9d1f,Brittany Powers,julieschultz@example.com,(210)769-8022x4631,2024-04-03,US,Alabama,East Krystal,active
+04ef7e00-d8e8-4e1c-9c58-142d39be7ed4,Sarah Davis,susan39@example.org,001-724-758-0085x482,2022-04-07,US,Massachusetts,Hayesmouth,dormant
+3ca2a2dd-c4ae-4cc1-84b9-d99125674f30,Edward Ford PhD,stevenaustin@example.net,+1-500-633-5759x66316,2023-12-12,US,North Dakota,South Benjamin,active
+24c40745-41c6-4ee7-9fc4-6477c0689a96,Amy Waller,amandamclaughlin@example.com,+1-661-624-0200x42440,2022-06-01,UK,England,North Amandamouth,active
+4c5fd500-0c75-4b7a-9f38-a07e1e0b24b2,Ronnie Cameron,brianramirez@example.net,937.240.3676x5009,2022-05-03,US,New Jersey,North Seanstad,active
+75694f29-73f4-47f9-8b8a-8ca22052bb16,Donald Mejia,charles70@example.org,+1-648-854-1920x825,2023-05-06,Germany,Bavaria,Parkland,active
+a604552e-dd7b-421e-bec7-23b90fd66f37,Brittney Walker,gabrielhall@example.com,001-422-670-5044x8316,2024-03-18,Germany,Berlin,New Michael,new
+73ef568a-1ec5-4e89-ada1-5a27afbf7e1b,Ronald Stone,amanda92@example.net,001-651-311-0964,2023-09-08,UK,England,Juanchester,active
+0d9a98e9-9084-47f3-ae6f-39c40005dcb9,Tyler Hall,thomassherry@example.com,+1-802-436-9994x85352,2022-10-03,US,Oklahoma,Blackborough,active
+2f5e24d7-612f-4f6f-b135-6cc2a98fa4c6,Jennifer Meadows,gparker@example.com,001-556-227-4509,2024-04-21,UK,Scotland,New David,new
+e5950cfe-1f6a-4589-aa1d-752d4002ab70,Diana Wood,petersonscott@example.com,001-342-559-3774x248,2023-05-06,US,Wyoming,New Michael,active
+f0f65c7a-8231-4921-9e9d-95d7102aeea0,Christina Hendricks,mchavez@example.org,+1-364-329-4451x8917,2022-08-10,US,North Dakota,Lake Christopher,active
+2c7af87c-d569-47a1-884a-6b4d79c95689,Breanna Davis,torreswilliam@example.net,721-886-9200,2023-04-07,US,Nevada,Toddton,active
+3512867e-afa5-4bfe-9fb1-609e7ee8a6e2,David Edwards,vsmith@example.com,2648131497,2023-02-19,US,Texas,Port Nancy,dormant
+e1474c78-97e0-48c8-9992-1c90ab92f2e9,Kayla Howard,jennifer68@example.net,411-475-3754,2024-03-29,Germany,Berlin,Markport,new
+5836f0d6-52b3-43d5-92e0-d162265d9c01,Todd Henderson,forddaniel@example.net,001-249-916-0157x1840,2022-03-10,UK,Scotland,Wilsonmouth,active
+d1f75d2e-7d2a-4686-abc1-093b62e95a36,Mr. Carlos Jones,dsmith@example.net,352.704.1379x8340,2023-04-10,Germany,Saxony,Turnermouth,active
+f40b9268-9138-424f-94c9-d08948a0b8b5,Jessica Duncan,jordanyvonne@example.net,729.917.8290,2024-04-02,US,Washington,Stephanieland,new
+30648955-59ca-43a5-9907-db5e9962fd8b,Jessica Davis,psandoval@example.org,2789104379,2024-02-05,US,Oklahoma,West Kayla,active
+168d7164-90cf-497c-b1e9-3a29d345a4f8,Alyssa Douglas,alex02@example.com,(368)250-7928x7588,2022-11-08,US,Georgia,Beckton,dormant
+7488ab81-4220-4ee3-b107-4753fc8f2f24,Steven Kemp,sandrahoward@example.com,423.527.7625,2024-04-16,US,New Jersey,Lake Robert,new
+0f07bd14-814a-49dd-9e9f-0bbe7a2580e6,Katelyn Smith,jimgonzalez@example.net,983-908-3433x1074,2024-02-02,UK,England,Smithmouth,active
+d0ca4f8d-a216-404e-9da2-6e38220e8649,James Fry,davidsonbrian@example.net,414.238.1095,2023-06-30,US,Arizona,Port Lauren,active
+6d4a8ed5-c024-43b3-9e00-fd6b708559cb,Kimberly Massey,conniepham@example.com,001-763-260-1308x77842,2023-10-17,Canada,Alberta,East Nancyhaven,active
+e99aec32-80d9-4b78-bda0-4e18e25cd8a5,Wendy Shah,jimenezthomas@example.org,(689)364-5395,2022-09-24,US,California,Danielport,vip
+15895706-9401-4ffa-bbd6-e3d261512a46,Michael Taylor,susanstewart@example.org,241.503.9341x36289,2024-04-23,UK,Northern Ireland,Allenview,new
+b8889699-a118-4686-b3de-57e783d91b5c,Kristen James,robinsonpamela@example.net,918.747.6607,2022-01-04,Canada,Alberta,West Jillhaven,churned
+78807e0c-0188-49f0-a6ae-0eb2249e1eb4,Laura Stewart,rowens@example.org,001-682-600-4048x29164,2022-04-21,Canada,Manitoba,Bradyburgh,active
+1c81bcea-b5e0-4adf-b2af-63a9e5486cff,Michael Peterson,xleon@example.org,460-576-5854x2487,2023-05-04,US,Alabama,Catherinechester,active
+7af7ad82-2d32-4f84-9200-4e0f271961aa,Amber Peterson,zbrown@example.com,292-903-1903x0498,2022-06-10,US,Texas,West Andrew,active
+43d743ac-e863-4776-890d-49c4a1c838f9,Kara York,jasonhamilton@example.org,+1-323-881-1210x0242,2023-03-26,US,Utah,Longstad,dormant
+cdeb49eb-7473-4c9b-8fb3-46d9bb2b86b4,Alexandra Clark,kennethsanchez@example.com,341.430.6430,2023-10-16,Germany,Hamburg,Jamieborough,active
+65435a2a-f65d-4e00-a301-bc01f243fe91,Julian Brown,karenbridges@example.org,(552)879-1743,2022-04-05,US,Maine,Port Benjaminfort,active
+2f57afbb-0ed4-4b76-bce5-ee7979a2345f,Megan Hernandez,cassandra87@example.com,(967)945-9035x01546,2022-09-23,UK,Northern Ireland,West Tara,vip
+d1ac2108-2933-4160-b04a-d93e9e6bf628,Jason Bauer,alyssa04@example.net,(386)485-3031x761,2024-02-02,US,Georgia,Bryceland,new
+240a248d-2118-4612-ab28-d84644a10b0a,Diana Perry,floreskaren@example.org,806-416-1374,2022-04-13,US,Mississippi,North Robertland,dormant
+0eb1ed37-3421-41c5-853e-e4f4bfd2ebfb,James Hayes,markperez@example.net,001-981-622-0692,2023-07-20,Germany,Saxony,East Kristinmouth,active
+aa21be6a-fca2-4925-81f9-2fec7053af1d,Marc Haney,christopher40@example.net,+1-302-679-1295x34949,2023-04-17,Australia,Queensland,South Stanleybury,churned
+84bd2562-4207-4db4-874c-46cf503a55c0,Brenda Mann,rachael67@example.org,(581)400-9249,2023-01-23,Canada,Ontario,New Justin,active
+089092a6-ba95-474b-9ee5-14a5a802559a,Michael Jackson,bodonnell@example.com,(925)619-0744,2022-05-17,Germany,Berlin,Cynthiafurt,dormant
+d3e92971-ee66-4bd6-a53e-c64d8843b9af,Charles Mccarthy,jamesmatthews@example.net,867-449-4758x8860,2023-03-07,Australia,Queensland,Hayesmouth,active
+52cd8d9d-4ae4-47c3-bd45-9d8d6023c6e6,Jimmy Gay,gthomas@example.net,9818040016,2022-04-17,US,Mississippi,New Jasonborough,dormant
+88b98ab0-58b9-448e-b963-193730738ba5,Donna Landry,shannonmiller@example.org,853-383-4616x4710,2023-12-20,Germany,Bavaria,South Emily,active
+dc037575-81b9-4d20-9ad4-6ba9bdb709e8,Matthew Finley,joshua83@example.com,778-287-4973x7069,2022-05-30,US,Texas,East Carlos,churned

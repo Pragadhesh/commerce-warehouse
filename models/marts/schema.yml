@@ -1,0 +1,79 @@
+version: 2
+
+models:
+  - name: customer_profile
+    description: >
+      One row per customer with lifetime order stats, feeding the CRM sync
+      and customer-segmentation dashboards. Projects customer_id directly.
+    columns:
+      - name: customer_id
+        description: Unique customer identifier.
+        tests:
+          - unique
+          - not_null
+      - name: customer_name
+        description: Customer full name.
+      - name: customer_email
+        description: Customer email address.
+      - name: customer_segment
+        description: Lifecycle segment label.
+      - name: lifetime_order_count
+        description: Total number of orders placed by this customer.
+      - name: lifetime_order_value
+        description: Sum of total_amount across all of this customer's orders.
+      - name: first_order_date
+        description: Date of this customer's earliest order.
+      - name: most_recent_order_date
+        description: Date of this customer's most recent order.
+
+  - name: customer_order_summary
+    description: >
+      Revenue and order-volume rollup by customer segment and country, used
+      in the quarterly business review. Joins orders to customers on
+      customer_id but does not project customer_id in its output.
+    columns:
+      - name: customer_segment
+        description: Customer lifecycle segment.
+      - name: country
+        description: Customer country of residence.
+      - name: order_count
+        description: Distinct order count for the segment/country group.
+      - name: total_revenue
+        description: Sum of total_amount for the segment/country group.
+      - name: avg_order_value
+        description: Average total_amount for the segment/country group.
+
+  - name: product_supplier_inventory
+    description: >
+      Per-product stock position and supplier attribution for the
+      merchandising team's reorder-planning workflow. No customer or order
+      tables involved.
+    columns:
+      - name: product_id
+        description: Unique product identifier.
+        tests:
+          - not_null
+      - name: warehouse_id
+        description: Warehouse holding this stock position.
+        tests:
+          - not_null
+      - name: quantity_available
+        description: quantity_on_hand less reserved_quantity.
+      - name: needs_reorder
+        description: True if quantity_available has fallen to or below reorder_threshold.
+
+  - name: order_fulfillment_performance
+    description: >
+      Shipment and return performance by carrier and warehouse, used in the
+      logistics team's carrier-scorecard review. No customer attributes.
+    columns:
+      - name: order_id
+        description: Unique order identifier.
+        tests:
+          - not_null
+      - name: carrier
+        description: Shipping carrier for this order's shipment.
+      - name: transit_days
+        description: Days between shipped_date and delivered_date.
+      - name: had_return
+        description: True if this order has at least one associated return.

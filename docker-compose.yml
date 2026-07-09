@@ -1,0 +1,24 @@
+services:
+  warehouse-db:
+    image: postgres:16
+    container_name: commerce-warehouse-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-warehouse}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-warehouse}
+      POSTGRES_DB: ${POSTGRES_DB:-commerce_warehouse}
+    ports:
+      # Host 5433 -> container 5432, so this doesn't collide with a
+      # locally-running Postgres instance on the default port.
+      - "5433:5432"
+    volumes:
+      - warehouse-db-data:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-warehouse} -d ${POSTGRES_DB:-commerce_warehouse}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  warehouse-db-data:
