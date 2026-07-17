@@ -1,9 +1,3 @@
--- Per-product stock position and supplier attribution, used by the
--- merchandising team's reorder-planning workflow. Sourced entirely from
--- product, inventory, warehouse, and supplier data -- no customer or order
--- tables involved. Changes to the customer/order side of the warehouse
--- (customer_id, order status codes, etc.) have no impact on this model.
-
 with products as (
 
     select * from {{ ref('stg_products') }}

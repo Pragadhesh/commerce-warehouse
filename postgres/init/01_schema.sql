@@ -1,15 +1,3 @@
--- Raw landing schema for the fiction-retail source extract.
---
--- These tables mirror the upstream operational tables as delivered by the
--- extract job, column-for-column. No renaming, casting, or business logic
--- happens here -- that's the job of the staging models in models/staging/.
---
--- Foreign keys are intentionally NOT enforced. This is a landing layer fed
--- by an external extract process; late-arriving or out-of-order files are
--- expected, and we don't want a load to fail because, say, a shipment row
--- arrived before its parent order. Referential integrity is checked at the
--- staging layer via dbt tests instead (see models/staging/schema.yml).
-
 create schema if not exists raw;
 
 create table raw.customers (
@@ -113,4 +101,24 @@ create table raw.returns (
     refund_amount           numeric(12, 2),
     return_reason_code      text,
     processed_by            text
+);
+
+create table raw.product_reviews (
+    review_id           text primary key,
+    product_id          text,
+    customer_name       text,
+    rating              integer,
+    review_text         text,
+    review_date         date,
+    verified_purchase   boolean,
+    helpful_votes       integer,
+    raw_payload         jsonb
+);
+
+create table raw.order_status_events (
+    event_id            text primary key,
+    order_id            text,
+    event_type          text,
+    event_time          timestamp,
+    raw_payload         jsonb
 );

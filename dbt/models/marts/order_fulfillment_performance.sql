@@ -1,8 +1,3 @@
--- Shipment and return performance by carrier and warehouse, used by the
--- logistics team's carrier-scorecard review. Built from order, shipment,
--- and return facts only; customer attributes are out of scope for this
--- model.
-
 with orders as (
 
     select * from {{ ref('stg_orders') }}

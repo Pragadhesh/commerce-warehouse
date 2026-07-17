@@ -1,13 +1,4 @@
 #!/bin/bash
-# Loads the fiction-retail sample extract into the raw schema created by
-# 01_schema.sql. Runs automatically on first container start via Postgres's
-# docker-entrypoint-initdb.d mechanism.
-#
-# Data files under data/ are a referentially-consistent subset of the full
-# source dataset (~700k rows across all tables) sized for a fast local spin-up:
-# dimension tables (products, suppliers, warehouses, inventory, promotions)
-# are loaded in full, and a sample of customers is loaded along with every
-# order, order item, shipment, and return that belongs to them.
 
 set -e
 

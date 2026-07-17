@@ -1,0 +1,18 @@
+source:
+  type: s3
+  config:
+    path_specs:
+      - include: "s3://commerce-raw-landing/fiction_retail/{table}/*.csv"
+    aws_config:
+      aws_access_key_id: minioadmin
+      aws_secret_access_key: minioadmin
+      aws_endpoint_url: "http://localhost:9000"
+      aws_region: "us-east-1"
+    profiling:
+      enabled: false
+
+sink:
+  type: datahub-rest
+  config:
+    server: "${DATAHUB_SERVER}"
+    token: "${DATAHUB_TOKEN}"

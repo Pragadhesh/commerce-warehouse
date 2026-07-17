@@ -247,6 +247,56 @@ sources:
           - name: status
             description: Promotion status: active, scheduled, or expired.
 
+      - name: product_reviews
+        description: >
+          Schema for product reviews landed from the reviews-db MongoDB
+          collection (mongodb/init/init-reviews.js). The source of truth is
+          Mongo, not this table -- reviews are semi-structured there (not
+          every document has every field). raw_payload is sized to
+          preserve the original document.
+        columns:
+          - name: review_id
+            description: Unique review identifier. Primary key.
+            tests:
+              - unique
+              - not_null
+          - name: product_id
+            description: FK to products.product_id.
+          - name: customer_name
+            description: Display name of the reviewer (not a FK to customers).
+          - name: rating
+            description: Star rating, 1-5.
+          - name: review_text
+            description: Free-text review body.
+          - name: review_date
+            description: Date the review was submitted.
+          - name: verified_purchase
+            description: True if the reviewer purchased the product through this store.
+          - name: helpful_votes
+            description: Count of "helpful" votes from other shoppers.
+
+      - name: order_status_events
+        description: >
+          Schema for order lifecycle events (created / shipped / delivered
+          / canceled) landed from the order-events Kafka topic. The source
+          of truth is the Kafka topic, not this table -- event shape
+          varies by event_type. raw_payload is sized to preserve the
+          original event.
+        columns:
+          - name: event_id
+            description: Unique event identifier. Primary key.
+            tests:
+              - unique
+              - not_null
+          - name: order_id
+            description: FK to orders.order_id.
+          - name: event_type
+            description: >
+              One of order.created, order.shipped, order.delivered,
+              order.canceled.
+          - name: event_time
+            description: Timestamp the event was emitted.
+
 models:
   - name: stg_customers
     description: Cleaned, renamed pass-through of raw.customers.
@@ -342,6 +392,28 @@ models:
     columns:
       - name: promo_id
         description: Unique promotion identifier.
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_product_reviews
+    description: >
+      Cleaned, renamed pass-through of raw.product_reviews (sourced from
+      MongoDB, not Postgres -- see mongodb/init/init-reviews.js).
+    columns:
+      - name: review_id
+        description: Unique review identifier.
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_order_events
+    description: >
+      Cleaned, renamed pass-through of raw.order_status_events (sourced
+      from the order-events Kafka topic, not Postgres).
+    columns:
+      - name: event_id
+        description: Unique event identifier.
         tests:
           - unique
           - not_null

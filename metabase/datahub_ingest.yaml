@@ -1,0 +1,14 @@
+source:
+  type: metabase
+  config:
+    connect_uri: "http://localhost:3000"
+    username: "${METABASE_USERNAME}"
+    password: "${METABASE_PASSWORD}"
+    database_alias_map:
+      commerce-warehouse: commerce_warehouse
+
+sink:
+  type: datahub-rest
+  config:
+    server: "${DATAHUB_SERVER}"
+    token: "${DATAHUB_TOKEN}"

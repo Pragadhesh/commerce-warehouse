@@ -1,14 +1,3 @@
--- Materializes the dbt-style models under models/ as real Postgres views,
--- in the public schema, so DataHub's postgres source can discover them and
--- parse view->view / table->view lineage from their SQL definitions.
--- Generated from models/**/*.sql -- if you change a model, regenerate this
--- file rather than hand-editing it, or the two will drift.
-
--- ==================== staging views ====================
-
--- Light cleanup of the raw customers extract: stable column names and
--- typing only, no business logic. Downstream marts should build on this
--- model rather than querying raw.customers directly.
 create view stg_customers as
 with source as (
 
@@ -258,15 +247,6 @@ renamed as (
 
 select * from renamed;
 
--- ==================== mart views ====================
-
--- One row per customer, feeding the CRM sync and the customer-segmentation
--- dashboards in Looker. This is the canonical place downstream tools resolve
--- "who is this customer" from customer_id, so it selects that column
--- directly (not just as a join key) -- any rename, drop, or retype of
--- customers.customer_id upstream will break this model outright rather than
--- degrade silently. Treat changes to that column as a breaking change and
--- coordinate with CRM/analytics owners before merging.
 create view customer_profile as
 with customers as (
 
@@ -312,15 +292,6 @@ from customers
 left join order_stats
     on customers.customer_id = order_stats.customer_id;
 
--- Revenue and order-volume rollup by customer segment and country, used by
--- the quarterly business review deck. Note this model does not project
--- customer_id in its output -- it only uses it as the join key between
--- orders and customers. That makes it easy to overlook as a dependency:
--- a rename would still break the join outright, but a retype or format
--- change on either side's customer_id (e.g. collation, casing, added
--- whitespace) can silently drop matching rows and understate revenue
--- without throwing an error. If customer_id changes upstream, re-validate
--- the join match rate here before trusting the numbers.
 create view customer_order_summary as
 with orders as (
 
@@ -349,11 +320,6 @@ group by
     customers.customer_segment,
     customers.country;
 
--- Per-product stock position and supplier attribution, used by the
--- merchandising team's reorder-planning workflow. Sourced entirely from
--- product, inventory, warehouse, and supplier data -- no customer or order
--- tables involved. Changes to the customer/order side of the warehouse
--- (customer_id, order status codes, etc.) have no impact on this model.
 create view product_supplier_inventory as
 with products as (
 
@@ -403,10 +369,6 @@ inner join warehouses
 left join suppliers
     on products.supplier_id = suppliers.supplier_id;
 
--- Shipment and return performance by carrier and warehouse, used by the
--- logistics team's carrier-scorecard review. Built from order, shipment,
--- and return facts only; customer attributes are out of scope for this
--- model.
 create view order_fulfillment_performance as
 with orders as (
 
@@ -453,3 +415,79 @@ inner join shipments
     on orders.order_id = shipments.order_id
 left join return_counts
     on orders.order_id = return_counts.order_id;
+
+create view stg_product_reviews as
+with source as (
+
+    select * from raw.product_reviews
+
+),
+
+renamed as (
+
+    select
+        review_id,
+        product_id,
+        customer_name,
+        rating,
+        review_text,
+        review_date,
+        verified_purchase,
+        helpful_votes
+
+    from source
+
+)
+
+select * from renamed;
+
+create view stg_order_events as
+with source as (
+
+    select * from raw.order_status_events
+
+),
+
+renamed as (
+
+    select
+        event_id,
+        order_id,
+        event_type,
+        event_time
+
+    from source
+
+)
+
+select * from renamed;
+
+create view product_review_summary as
+with reviews as (
+
+    select * from stg_product_reviews
+
+),
+
+products as (
+
+    select * from stg_products
+
+)
+
+select
+    products.product_id,
+    products.product_name,
+    products.product_category,
+    count(reviews.review_id)                               as review_count,
+    round(avg(reviews.rating), 2)                          as avg_rating,
+    sum(case when reviews.rating <= 2 then 1 else 0 end)   as low_rating_count
+
+from products
+inner join reviews
+    on products.product_id = reviews.product_id
+
+group by
+    products.product_id,
+    products.product_name,
+    products.product_category;

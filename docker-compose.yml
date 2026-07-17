@@ -8,17 +8,86 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-warehouse}
       POSTGRES_DB: ${POSTGRES_DB:-commerce_warehouse}
     ports:
-      # Host 5433 -> container 5432, so this doesn't collide with a
-      # locally-running Postgres instance on the default port.
       - "5433:5432"
     volumes:
       - warehouse-db-data:/var/lib/postgresql/data
-      - ./init:/docker-entrypoint-initdb.d:ro
+      - ./postgres/init:/docker-entrypoint-initdb.d:ro
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-warehouse} -d ${POSTGRES_DB:-commerce_warehouse}"]
       interval: 5s
       timeout: 5s
       retries: 10
 
+  reviews-db:
+    image: mongo:7
+    container_name: commerce-warehouse-mongo
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_DATABASE: ${MONGO_DB:-commerce_reviews}
+    ports:
+      - "27017:27017"
+    volumes:
+      - reviews-db-data:/data/db
+      - ./mongodb/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping')"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  raw-landing:
+    image: minio/minio:latest
+    container_name: commerce-warehouse-minio
+    restart: unless-stopped
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-minioadmin}
+    command: server /data --console-address ":9001"
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - raw-landing-data:/data
+
+  kafka:
+    image: apache/kafka:3.8.0
+    container_name: commerce-warehouse-kafka
+    restart: unless-stopped
+    ports:
+      - "9094:9094"
+    environment:
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_LISTENERS: PLAINTEXT://:9094,CONTROLLER://:9093
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9094
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@localhost:9093
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      CLUSTER_ID: MkU3OEVBNTcwNTJENDM2Qk
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/kafka/bin/kafka-broker-api-versions.sh --bootstrap-server localhost:9094"]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+
+  metabase:
+    image: metabase/metabase:latest
+    container_name: commerce-warehouse-metabase
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    depends_on:
+      warehouse-db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O- http://localhost:3000/api/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
 volumes:
   warehouse-db-data:
+  reviews-db-data:
+  raw-landing-data:

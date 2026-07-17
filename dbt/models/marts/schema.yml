@@ -77,3 +77,21 @@ models:
         description: Days between shipped_date and delivered_date.
       - name: had_return
         description: True if this order has at least one associated return.
+
+  - name: product_review_summary
+    description: >
+      Average rating and review volume per product, for the merchandising
+      team's quality-monitoring dashboard. Built from stg_product_reviews,
+      which is sourced from MongoDB rather than Postgres -- this is the
+      mart where a NoSQL-side breaking change surfaces.
+    columns:
+      - name: product_id
+        description: Unique product identifier.
+        tests:
+          - not_null
+      - name: review_count
+        description: Number of reviews for this product.
+      - name: avg_rating
+        description: Mean star rating (1-5) across this product's reviews.
+      - name: low_rating_count
+        description: Count of reviews with a rating of 2 or below.

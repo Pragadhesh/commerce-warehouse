@@ -1,0 +1,16 @@
+source:
+  type: mongodb
+  config:
+    connect_uri: "mongodb://localhost:27017"
+    database_pattern:
+      allow:
+        - "commerce_reviews"
+    collection_pattern:
+      allow:
+        - "commerce_reviews.product_reviews"
+
+sink:
+  type: datahub-rest
+  config:
+    server: "${DATAHUB_SERVER}"
+    token: "${DATAHUB_TOKEN}"

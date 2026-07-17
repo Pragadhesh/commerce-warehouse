@@ -1,0 +1,14 @@
+source:
+  type: dbt
+  config:
+    manifest_path: "./dbt/target/manifest.json"
+    catalog_path: "./dbt/target/catalog.json"
+    target_platform: postgres
+    load_schemas: true
+    enable_meta_mapping: true
+
+sink:
+  type: datahub-rest
+  config:
+    server: "${DATAHUB_SERVER}"
+    token: "${DATAHUB_TOKEN}"

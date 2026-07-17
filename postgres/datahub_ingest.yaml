@@ -1,0 +1,22 @@
+source:
+  type: postgres
+  config:
+    host_port: "localhost:5433"
+    username: warehouse
+    password: warehouse
+    database: commerce_warehouse
+    include_views: true
+    profiling:
+      enabled: true
+      profile_table_level_only: true
+    schema_pattern:
+      allow:
+        - "raw"
+        - "public"
+        - "analytics"
+
+sink:
+  type: datahub-rest
+  config:
+    server: "${DATAHUB_SERVER}"
+    token: "${DATAHUB_TOKEN}"

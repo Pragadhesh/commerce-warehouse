@@ -1,11 +1,3 @@
--- One row per customer, feeding the CRM sync and the customer-segmentation
--- dashboards in Looker. This is the canonical place downstream tools resolve
--- "who is this customer" from customer_id, so it selects that column
--- directly (not just as a join key) -- any rename, drop, or retype of
--- customers.customer_id upstream will break this model outright rather than
--- degrade silently. Treat changes to that column as a breaking change and
--- coordinate with CRM/analytics owners before merging.
-
 with customers as (
 
     select * from {{ ref('stg_customers') }}

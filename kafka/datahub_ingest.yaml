@@ -1,0 +1,14 @@
+source:
+  type: kafka
+  config:
+    connection:
+      bootstrap: "localhost:9094"
+    topic_patterns:
+      allow:
+        - "order-events"
+
+sink:
+  type: datahub-rest
+  config:
+    server: "${DATAHUB_SERVER}"
+    token: "${DATAHUB_TOKEN}"
