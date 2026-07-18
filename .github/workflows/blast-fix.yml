@@ -22,4 +22,6 @@ jobs:
     uses: Pragadhesh/Blast/.github/workflows/blast-fix.yml@master
     with:
       runs_on: self-hosted
+      setup_python: false   # runner already has a working Python on PATH;
+                            # actions/setup-python's installer is unreliable here
     secrets: inherit
