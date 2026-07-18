@@ -15,6 +15,9 @@ on:
 
 jobs:
   blast:
+    permissions:
+      contents: read
+      pull-requests: write
     uses: Pragadhesh/Blast/.github/workflows/blast-scan.yml@master
     with:
       runs_on: self-hosted
