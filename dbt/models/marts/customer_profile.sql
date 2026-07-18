@@ -15,7 +15,7 @@ order_stats as (
     select
         customer_id,
         count(*)            as lifetime_order_count,
-        sum(total_amount)   as lifetime_order_value,
+        sum(total)         as lifetime_order_value,
         min(order_date)     as first_order_date,
         max(order_date)     as most_recent_order_date
 
