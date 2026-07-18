@@ -24,4 +24,5 @@ jobs:
       runs_on: self-hosted
       setup_python: false   # runner already has a working Python on PATH;
                             # actions/setup-python's installer is unreliable here
+      models_root: "dbt/models/"   # this repo's dbt project isn't at the repo root
     secrets: inherit
