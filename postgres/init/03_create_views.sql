@@ -9,7 +9,7 @@ renamed as (
 
     select
         customer_id,
-        name                as customer_name,
+        names                as customer_name,
         email               as customer_email,
         phone               as customer_phone,
         signup_date,
