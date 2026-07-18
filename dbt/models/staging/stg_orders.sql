@@ -11,7 +11,7 @@ renamed as (
         customer_id,
         order_date,
         order_status,
-        total_amount,
+        total,
         payment_method,
         shipping_country,
         promo_id
