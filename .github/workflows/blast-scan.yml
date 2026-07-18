@@ -1,12 +1,11 @@
 # Runs Blast against any changed file in a PR to this repo -- SQL, DDL,
 # Terraform, anything an LLM can read (see Blast's docs/architecture.md).
 # Blast's actual code lives in https://github.com/Pragadhesh/Blast -- this
-# file just wires it up. Entity resolution for this repo is configured in
-# .blast/entities.yml (postgres/kafka/s3 URN templates). Requires
-# OPENAI_API_KEY, DATAHUB_SERVER, DATAHUB_TOKEN as repository secrets
-# (Settings -> Secrets and variables -> Actions), and a self-hosted runner
-# registered on this repo (DataHub runs on localhost, which GitHub-hosted
-# runners can't reach).
+# file just wires it up. Entity resolution is DataHub search, no config
+# needed in this repo. Requires OPENAI_API_KEY, DATAHUB_SERVER,
+# DATAHUB_TOKEN as repository secrets (Settings -> Secrets and variables ->
+# Actions), and a self-hosted runner registered on this repo (DataHub runs
+# on localhost, which GitHub-hosted runners can't reach).
 
 name: Blast
 
