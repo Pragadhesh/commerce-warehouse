@@ -14,8 +14,8 @@ select
     customers.customer_segment,
     customers.country,
     count(distinct orders.order_id)    as order_count,
-    sum(orders.total_amount)           as total_revenue,
-    avg(orders.total_amount)           as avg_order_value
+    sum(orders.total)                  as total_revenue,
+    avg(orders.total)                  as avg_order_value
 
 from orders
 inner join customers
